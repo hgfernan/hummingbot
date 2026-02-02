@@ -96,3 +96,7 @@ coverage.xml
 .env
 
 **/.claude/settings.local.json
+
+# Geaany
+.geany
+
