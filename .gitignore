@@ -96,3 +96,10 @@ coverage.xml
 .env
 
 **/.claude/settings.local.json
+
+# Spyder
+.spyproject/
+
+# Geany
+.geany/
+
