@@ -1,0 +1,44 @@
+2026-02-18 06:33:27 | info | 	⚡️ Gateway version 2.12.0 starting at http://localhost:15888
+2026-02-18 06:33:27 | info | 	🔧 Log level configured as: info
+2026-02-18 06:33:27 | info | 	Checking for processes using port 15888...
+2026-02-18 06:33:27 | info | 	No process found using port 15888
+2026-02-18 06:33:27 | info | 	🔴 Running in development mode with (unsafe!) HTTP endpoints
+2026-02-18 06:33:29 | info | 	📓 Documentation available at http://localhost:15888/docs
+2026-02-18 06:33:29 | info | 	🌐 Chain Configurations:
+2026-02-18 06:33:29 | info | 	📡 Solana (defaultNetwork: mainnet-beta): Block #401,107,853 - https://api.mainnet-beta.solana.com
+2026-02-18 06:33:29 | info | 	📡 Ethereum (defaultNetwork: mainnet): Block #24,484,343 - https://eth.llamarpc.com
+2026-02-18 06:42:28 | info | 	Getting available DEX connectors and networks
+2026-02-18 06:42:28 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-18 06:42:28 | info | 	Getting available blockchain networks
+2026-02-18 06:42:28 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-18 06:42:28 | info | 	Getting all configuration namespaces
+2026-02-18 06:42:28 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-18 06:42:28 | info | 	Getting all configurations
+2026-02-18 06:52:00 | info | 	Getting available DEX connectors and networks
+2026-02-18 06:52:00 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-18 06:52:00 | info | 	Getting available blockchain networks
+2026-02-18 06:52:00 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-18 06:52:00 | info | 	Getting all configuration namespaces
+2026-02-18 06:52:00 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-18 06:52:00 | info | 	Getting all configurations
+2026-02-18 06:56:01 | info | 	Getting available DEX connectors and networks
+2026-02-18 06:56:01 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-18 06:56:01 | info | 	Getting available blockchain networks
+2026-02-18 06:56:01 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-18 06:56:01 | info | 	Getting all configuration namespaces
+2026-02-18 06:56:01 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-18 06:56:01 | info | 	Getting all configurations
+2026-02-18 06:57:41 | info | 	Getting available DEX connectors and networks
+2026-02-18 06:57:41 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-18 06:57:41 | info | 	Getting available blockchain networks
+2026-02-18 06:57:41 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-18 06:57:41 | info | 	Getting all configuration namespaces
+2026-02-18 06:57:41 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-18 06:57:41 | info | 	Getting all configurations
+2026-02-18 12:10:52 | info | 	Getting available DEX connectors and networks
+2026-02-18 12:10:52 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-18 12:10:52 | info | 	Getting available blockchain networks
+2026-02-18 12:10:52 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-18 12:10:52 | info | 	Getting all configuration namespaces
+2026-02-18 12:10:52 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-18 12:10:52 | info | 	Getting all configurations
