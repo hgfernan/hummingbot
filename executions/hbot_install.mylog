@@ -1,0 +1,11255 @@
+2 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.5.1
+    latest version: 26.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages: ...working...rust-1.93.1          | 169.6 MB  |            |   0% 
+gcc_impl_linux-64-15 | 78.0 MB   |            |   0% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   |            |   0% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   |            |   0% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   |            |   0% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   |            |   0% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   |            |   0% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   |            |   0% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   |            |   1% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 1          |   1% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 1          |   1% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 1          |   1% [Arust-1.93.1          | 169.6 MB  |            |   0% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | 2          |   2% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 2          |   2% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   |            |   0% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 3          |   3% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 1          |   2% [Arust-1.93.1          | 169.6 MB  |            |   0% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | 2          |   3% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   |            |   0% [A[A[Arust-1.93.1          | 169.6 MB  |            |   0% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 1          |   1% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 2          |   2% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 3          |   4% [A[Arust-1.93.1          | 169.6 MB  |            |   1% 
+
+
+
+python-3.13.12       | 35.6 MB   | 4          |   4% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 2          |   2% [A[A[Arust-1.93.1          | 169.6 MB  |            |   1% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | 4          |   4% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 3          |   3% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 2          |   3% [A
+
+
+
+python-3.13.12       | 35.6 MB   | 5          |   5% [A[A[A[Arust-1.93.1          | 169.6 MB  |            |   1% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 4          |   4% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 4          |   5% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 2          |   3% [A
+
+
+
+python-3.13.12       | 35.6 MB   | 5          |   6% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 5          |   5% [A[Arust-1.93.1          | 169.6 MB  | 1          |   1% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 4          |   5% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 3          |   3% [A
+
+
+
+python-3.13.12       | 35.6 MB   | 6          |   6% [A[A[A[Arust-1.93.1          | 169.6 MB  | 1          |   1% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 5          |   6% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 6          |   6% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 3          |   3% [A
+
+
+
+python-3.13.12       | 35.6 MB   | 7          |   7% [A[A[A[Arust-1.93.1          | 169.6 MB  | 1          |   1% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 6          |   6% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 3          |   4% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 6          |   7% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 7          |   8% [A[A[A[Arust-1.93.1          | 169.6 MB  | 1          |   2% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 7          |   7% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 4          |   4% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 7          |   7% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 8          |   8% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 8          |   8% [A[A[Arust-1.93.1          | 169.6 MB  | 1          |   2% 
+gcc_impl_linux-64-15 | 78.0 MB   | 4          |   4% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 7          |   8% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 8          |   9% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 8          |   9% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 4          |   5% [Arust-1.93.1          | 169.6 MB  | 1          |   2% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | 8          |   8% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | 9          |   9% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | 9          |  10% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 4          |   5% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 8          |   9% [A[Arust-1.93.1          | 169.6 MB  | 1          |   2% 
+
+
+
+python-3.13.12       | 35.6 MB   | 9          |  10% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #          |  10% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 9          |   9% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 5          |   5% [Arust-1.93.1          | 169.6 MB  | 2          |   2% 
+
+
+
+python-3.13.12       | 35.6 MB   | #          |  10% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #1         |  11% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | 9          |  10% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 5          |   6% [Arust-1.93.1          | 169.6 MB  | 2          |   2% 
+
+
+
+python-3.13.12       | 35.6 MB   | #1         |  11% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #2         |  12% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #          |  10% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 5          |   6% [Arust-1.93.1          | 169.6 MB  | 2          |   2% 
+
+
+
+python-3.13.12       | 35.6 MB   | #1         |  12% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #2         |  13% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #          |  11% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 6          |   6% [Arust-1.93.1          | 169.6 MB  | 2          |   2% 
+
+
+
+python-3.13.12       | 35.6 MB   | #2         |  12% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #3         |  14% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #1         |  11% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 6          |   6% [Arust-1.93.1          | 169.6 MB  | 2          |   3% 
+
+
+
+python-3.13.12       | 35.6 MB   | #2         |  13% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #4         |  15% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #1         |  12% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 6          |   7% [Arust-1.93.1          | 169.6 MB  | 2          |   3% 
+
+
+
+python-3.13.12       | 35.6 MB   | #3         |  13% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #5         |  15% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #2         |  12% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 6          |   7% [Arust-1.93.1          | 169.6 MB  | 2          |   3% 
+
+
+
+python-3.13.12       | 35.6 MB   | #3         |  14% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #6         |  16% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #2         |  13% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 7          |   7% [Arust-1.93.1          | 169.6 MB  | 2          |   3% 
+
+
+
+python-3.13.12       | 35.6 MB   | #4         |  15% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #7         |  17% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #3         |  13% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 7          |   7% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #5         |  15% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #7         |  18% [A[A[Arust-1.93.1          | 169.6 MB  | 3          |   3% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #4         |  14% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 7          |   8% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #5         |  16% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #8         |  19% [A[A[Arust-1.93.1          | 169.6 MB  | 3          |   3% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #4         |  15% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 7          |   8% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #9         |  20% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #6         |  16% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   3% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #5         |  15% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 8          |   8% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##         |  20% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #6         |  17% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   3% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #5         |  16% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##1        |  21% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 8          |   9% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #7         |  18% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #6         |  16% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##2        |  22% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 8          |   9% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #8         |  18% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #6         |  17% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##3        |  23% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 9          |   9% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #8         |  19% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #7         |  17% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##3        |  24% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 9          |   9% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #9         |  19% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #7         |  18% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##4        |  25% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 9          |  10% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #9         |  20% [A[A[A[Arust-1.93.1          | 169.6 MB  | 3          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #8         |  19% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##5        |  26% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | 9          |  10% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ##         |  20% [A[A[A[Arust-1.93.1          | 169.6 MB  | 4          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #9         |  19% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##6        |  27% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #          |  10% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ##1        |  21% [A[A[A[Arust-1.93.1          | 169.6 MB  | 4          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #9         |  20% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##7        |  27% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##1        |  22% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #          |  10% [Arust-1.93.1          | 169.6 MB  | 4          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##         |  20% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##8        |  28% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##2        |  22% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #          |  11% [Arust-1.93.1          | 169.6 MB  | 4          |   4% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##         |  21% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ##9        |  29% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##2        |  23% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #          |  11% [Arust-1.93.1          | 169.6 MB  | 4          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##1        |  21% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###        |  30% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##3        |  23% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #1         |  11% [Arust-1.93.1          | 169.6 MB  | 4          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##1        |  22% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###1       |  31% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##3        |  24% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #1         |  11% [Arust-1.93.1          | 169.6 MB  | 4          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##2        |  22% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###1       |  32% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##4        |  24% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #1         |  12% [Arust-1.93.1          | 169.6 MB  | 4          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##2        |  23% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###2       |  33% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##5        |  25% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #1         |  12% [Arust-1.93.1          | 169.6 MB  | 4          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##3        |  24% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###3       |  34% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##5        |  26% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #2         |  12% [Arust-1.93.1          | 169.6 MB  | 5          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##4        |  24% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###4       |  35% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##6        |  26% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #2         |  12% [Arust-1.93.1          | 169.6 MB  | 5          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##4        |  25% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###5       |  36% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##6        |  27% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #2         |  13% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##5        |  25% [A[Arust-1.93.1          | 169.6 MB  | 5          |   5% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###6       |  36% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##7        |  27% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #2         |  13% [Arust-1.93.1          | 169.6 MB  | 5          |   5% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##5        |  26% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###7       |  37% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##7        |  28% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #3         |  13% [Arust-1.93.1          | 169.6 MB  | 5          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##6        |  26% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###8       |  38% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##8        |  28% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #3         |  13% [Arust-1.93.1          | 169.6 MB  | 5          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##6        |  27% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ###9       |  39% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##9        |  29% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #3         |  14% [Arust-1.93.1          | 169.6 MB  | 5          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##7        |  27% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####       |  40% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ##9        |  30% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #3         |  14% [Arust-1.93.1          | 169.6 MB  | 5          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##7        |  28% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####       |  41% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###        |  30% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #4         |  14% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##8        |  28% [A[Arust-1.93.1          | 169.6 MB  | 5          |   6% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####1      |  42% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###        |  31% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #4         |  14% [Arust-1.93.1          | 169.6 MB  | 6          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##9        |  29% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####2      |  43% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###1       |  31% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #4         |  15% [Arust-1.93.1          | 169.6 MB  | 6          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ##9        |  30% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####3      |  44% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###1       |  32% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #5         |  15% [Arust-1.93.1          | 169.6 MB  | 6          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###        |  30% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####4      |  45% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###2       |  32% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #5         |  15% [Arust-1.93.1          | 169.6 MB  | 6          |   6% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###        |  31% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####5      |  45% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###3       |  33% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #5         |  16% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###1       |  31% [A[Arust-1.93.1          | 169.6 MB  | 6          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####6      |  46% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###3       |  34% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #5         |  16% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###1       |  32% [A[Arust-1.93.1          | 169.6 MB  | 6          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####7      |  47% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###4       |  34% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #6         |  16% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###2       |  32% [A[Arust-1.93.1          | 169.6 MB  | 6          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####8      |  48% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###4       |  35% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #6         |  16% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###2       |  33% [A[Arust-1.93.1          | 169.6 MB  | 6          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####8      |  49% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###5       |  35% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #6         |  17% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###3       |  33% [A[Arust-1.93.1          | 169.6 MB  | 6          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ####9      |  50% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###5       |  36% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #6         |  17% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###4       |  34% [A[Arust-1.93.1          | 169.6 MB  | 7          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####      |  51% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###6       |  36% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #7         |  17% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###4       |  35% [A[Arust-1.93.1          | 169.6 MB  | 7          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####1     |  51% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###7       |  37% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #7         |  17% [Arust-1.93.1          | 169.6 MB  | 7          |   7% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####2     |  52% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###5       |  35% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ###7       |  38% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####3     |  53% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###5       |  36% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #7         |  18% [Arust-1.93.1          | 169.6 MB  | 7          |   7% 
+
+
+
+python-3.13.12       | 35.6 MB   | ###8       |  38% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####4     |  54% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###6       |  36% [A[Arust-1.93.1          | 169.6 MB  | 7          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #7         |  18% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ###8       |  39% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####4     |  55% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###6       |  37% [A[Arust-1.93.1          | 169.6 MB  | 7          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #8         |  18% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ###9       |  39% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####5     |  56% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###7       |  37% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #8         |  18% [Arust-1.93.1          | 169.6 MB  | 7          |   8% 
+
+
+
+python-3.13.12       | 35.6 MB   | ###9       |  40% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####6     |  57% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###7       |  38% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #8         |  19% [Arust-1.93.1          | 169.6 MB  | 7          |   8% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####       |  40% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###8       |  39% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####7     |  58% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #8         |  19% [Arust-1.93.1          | 169.6 MB  | 8          |   8% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####1      |  41% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####8     |  58% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###9       |  39% [A[Arust-1.93.1          | 169.6 MB  | 8          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #9         |  19% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ####1      |  42% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #####9     |  59% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ###9       |  40% [A[Arust-1.93.1          | 169.6 MB  | 8          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #9         |  19% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ####2      |  42% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####       |  40% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######     |  60% [A[A[Arust-1.93.1          | 169.6 MB  | 8          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #9         |  20% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ####2      |  43% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####       |  41% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######     |  61% [A[A[Arust-1.93.1          | 169.6 MB  | 8          |   8% 
+gcc_impl_linux-64-15 | 78.0 MB   | #9         |  20% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ####3      |  43% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####1      |  41% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######1    |  62% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##         |  20% [Arust-1.93.1          | 169.6 MB  | 8          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####3      |  44% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####1      |  42% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######2    |  63% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##         |  20% [Arust-1.93.1          | 169.6 MB  | 8          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####4      |  44% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####2      |  42% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######3    |  63% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##         |  21% [Arust-1.93.1          | 169.6 MB  | 8          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####5      |  45% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####3      |  43% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######4    |  64% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##1        |  21% [Arust-1.93.1          | 169.6 MB  | 8          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####5      |  46% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####3      |  44% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######5    |  65% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##1        |  21% [Arust-1.93.1          | 169.6 MB  | 9          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####6      |  46% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####4      |  44% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######6    |  66% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##1        |  22% [Arust-1.93.1          | 169.6 MB  | 9          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####6      |  47% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####4      |  45% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######7    |  67% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##1        |  22% [Arust-1.93.1          | 169.6 MB  | 9          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####7      |  47% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######8    |  68% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####5      |  45% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##2        |  22% [Arust-1.93.1          | 169.6 MB  | 9          |   9% 
+
+
+
+python-3.13.12       | 35.6 MB   | ####7      |  48% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######8    |  69% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####5      |  46% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##2        |  22% [Arust-1.93.1          | 169.6 MB  | 9          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ######9    |  70% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ####8      |  48% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####6      |  46% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##2        |  23% [Arust-1.93.1          | 169.6 MB  | 9          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######    |  71% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ####9      |  49% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####6      |  47% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##2        |  23% [Arust-1.93.1          | 169.6 MB  | 9          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######1   |  72% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ####9      |  50% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####7      |  47% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##3        |  23% [Arust-1.93.1          | 169.6 MB  | 9          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######2   |  73% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #####      |  50% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####7      |  48% [A[Arust-1.93.1          | 169.6 MB  | 9          |  10% 
+gcc_impl_linux-64-15 | 78.0 MB   | ##3        |  23% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######3   |  74% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #####      |  51% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####8      |  48% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##3        |  24% [Arust-1.93.1          | 169.6 MB  | #          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######4   |  75% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #####1     |  51% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####8      |  49% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##3        |  24% [Arust-1.93.1          | 169.6 MB  | #          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######5   |  76% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #####1     |  52% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####9      |  49% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##4        |  24% [Arust-1.93.1          | 169.6 MB  | #          |  10% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######6   |  76% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #####2     |  52% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ####9      |  50% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##4        |  24% [Arust-1.93.1          | 169.6 MB  | #          |  10% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####2     |  53% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######7   |  77% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####      |  51% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##4        |  25% [Arust-1.93.1          | 169.6 MB  | #          |  11% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####3     |  53% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######8   |  78% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####1     |  51% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##4        |  25% [Arust-1.93.1          | 169.6 MB  | #          |  11% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####4     |  54% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #######9   |  79% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####1     |  52% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##5        |  25% [Arust-1.93.1          | 169.6 MB  | #          |  11% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####4     |  55% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####2     |  52% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########   |  80% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##5        |  25% [Arust-1.93.1          | 169.6 MB  | #          |  11% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####5     |  55% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####2     |  53% [A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########   |  81% [A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##5        |  26% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #####6     |  56% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  11% 
+
+
+
+python-3.13.12       | 35.6 MB   | #####8     |  59% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####3     |  53% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##5        |  26% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ######     |  60% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  11% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########1  |  82% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####3     |  54% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##5        |  26% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ######1    |  62% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  11% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########2  |  82% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####4     |  54% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##6        |  26% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ######3    |  63% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  11% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########2  |  83% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####4     |  55% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##6        |  26% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ######4    |  65% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  11% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########3  |  83% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####5     |  55% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##6        |  27% [Arust-1.93.1          | 169.6 MB  | #1         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########4  |  84% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ######6    |  66% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####5     |  56% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##6        |  27% [Arust-1.93.1          | 169.6 MB  | #1         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########4  |  85% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####5     |  56% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##7        |  27% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ######7    |  67% [A[A[A[Arust-1.93.1          | 169.6 MB  | #1         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########5  |  85% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####6     |  56% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##7        |  28% [Arust-1.93.1          | 169.6 MB  | #1         |  12% 
+
+
+
+python-3.13.12       | 35.6 MB   | ######8    |  68% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########5  |  86% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####7     |  57% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##7        |  28% [Arust-1.93.1          | 169.6 MB  | #2         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########6  |  86% [A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ######9    |  69% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####7     |  58% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##8        |  28% [Arust-1.93.1          | 169.6 MB  | #2         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########6  |  87% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####8     |  58% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##8        |  28% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######    |  70% [A[A[A[Arust-1.93.1          | 169.6 MB  | #2         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########7  |  88% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####8     |  59% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##8        |  29% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######1   |  71% [A[A[A[Arust-1.93.1          | 169.6 MB  | #2         |  12% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########8  |  88% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####9     |  59% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##8        |  29% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######1   |  72% [A[A[A[Arust-1.93.1          | 169.6 MB  | #2         |  13% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########8  |  89% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #####9     |  60% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##9        |  29% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########9  |  89% [A[A[Arust-1.93.1          | 169.6 MB  | #2         |  13% 
+
+
+
+python-3.13.12       | 35.6 MB   | #######2   |  73% [A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######     |  60% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##9        |  30% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########  |  90% [A[A[Arust-1.93.1          | 169.6 MB  | #2         |  13% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######     |  61% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #######3   |  73% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ##9        |  30% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########  |  91% [A[A[Arust-1.93.1          | 169.6 MB  | #2         |  13% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######1    |  61% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #######4   |  74% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###        |  30% [A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########1 |  91% [A[A[Arust-1.93.1          | 169.6 MB  | #3         |  13% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######1    |  62% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###        |  30% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######4   |  75% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  13% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########2 |  92% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######2    |  62% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###        |  31% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######5   |  76% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  13% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########2 |  93% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######3    |  63% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###1       |  31% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######6   |  76% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  13% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########3 |  93% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######3    |  64% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###1       |  31% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######6   |  77% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  14% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########3 |  94% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######4    |  64% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###1       |  32% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######7   |  78% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  14% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########4 |  94% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######4    |  65% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###1       |  32% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######8   |  78% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  14% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########5 |  95% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######5    |  65% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###2       |  32% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######8   |  79% [A[A[A[Arust-1.93.1          | 169.6 MB  | #3         |  14% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########5 |  96% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######5    |  66% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###2       |  33% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #######9   |  79% [A[A[A[Arust-1.93.1          | 169.6 MB  | #4         |  14% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########6 |  96% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######6    |  66% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###2       |  33% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########   |  80% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########7 |  97% [A[A[Arust-1.93.1          | 169.6 MB  | #4         |  14% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######7    |  67% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###3       |  33% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########   |  81% [A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########7 |  98% [A[A[Arust-1.93.1          | 169.6 MB  | #4         |  14% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######7    |  68% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###3       |  33% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########1  |  81% [A[A[A[Arust-1.93.1          | 169.6 MB  | #4         |  15% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########8 |  98% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######8    |  68% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########1  |  82% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###3       |  34% [Arust-1.93.1          | 169.6 MB  | #4         |  15% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########9 |  99% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######8    |  69% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########2  |  83% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###4       |  34% [Arust-1.93.1          | 169.6 MB  | #4         |  15% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | #########9 | 100% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######9    |  69% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########3  |  83% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###4       |  34% [Arust-1.93.1          | 169.6 MB  | #4         |  15% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ######9    |  70% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########3  |  84% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###4       |  35% [Arust-1.93.1          | 169.6 MB  | #5         |  15% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######    |  71% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########4  |  85% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###5       |  35% [Arust-1.93.1          | 169.6 MB  | #5         |  15% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######1   |  71% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###5       |  35% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########5  |  86% [A[A[A[Arust-1.93.1          | 169.6 MB  | #5         |  16% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######1   |  72% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###5       |  36% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########6  |  86% [A[A[A[Arust-1.93.1          | 169.6 MB  | #5         |  16% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######2   |  73% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###6       |  36% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########7  |  87% [A[A[A[Arust-1.93.1          | 169.6 MB  | #5         |  16% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######3   |  73% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###6       |  37% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########7  |  88% [A[A[A[Arust-1.93.1          | 169.6 MB  | #5         |  16% 
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########## | 100% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######4   |  74% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###6       |  37% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########8  |  89% [A[A[A[Arust-1.93.1          | 169.6 MB  | #6         |  16% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######5   |  75% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###7       |  37% [A
+
+
+
+python-3.13.12       | 35.6 MB   | ########9  |  89% [A[A[A[Arust-1.93.1          | 169.6 MB  | #6         |  16% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######5   |  76% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###7       |  38% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #########  |  90% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   |            |   0% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | #6         |  16% 
+gcc_impl_linux-64-15 | 78.0 MB   | ###8       |  38% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######6   |  77% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   |            |   0% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | #6         |  17% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########  |  91% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###8       |  38% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 1          |   1% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######7   |  77% [A[Arust-1.93.1          | 169.6 MB  | #6         |  17% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########1 |  92% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 1          |   2% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###8       |  39% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######8   |  78% [A[Arust-1.93.1          | 169.6 MB  | #6         |  17% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########2 |  92% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 2          |   2% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######8   |  79% [A[Arust-1.93.1          | 169.6 MB  | #7         |  17% 
+gcc_impl_linux-64-15 | 78.0 MB   | ###9       |  39% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #########3 |  93% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 2          |   3% [A[A[A[A[A
+
+
+rust-std-x86_64-unkn | 36.6 MB   | ########## | 100% [A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######9   |  79% [A[Arust-1.93.1          | 169.6 MB  | #7         |  17% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########3 |  94% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###9       |  39% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 3          |   3% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #######9   |  80% [A[Arust-1.93.1          | 169.6 MB  | #7         |  17% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########4 |  94% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ###9       |  40% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 4          |   4% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########   |  81% [A[Arust-1.93.1          | 169.6 MB  | #7         |  18% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########5 |  95% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####       |  40% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 4          |   5% [A[A[A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #########5 |  96% [A[A[A[Arust-1.93.1          | 169.6 MB  | #7         |  18% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########1  |  81% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####       |  40% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 5          |   5% [A[A[A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #########6 |  96% [A[A[A[Arust-1.93.1          | 169.6 MB  | #7         |  18% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########1  |  82% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####       |  41% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 6          |   6% [A[A[A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #########7 |  97% [A[A[A[Arust-1.93.1          | 169.6 MB  | #7         |  18% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########2  |  82% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####       |  41% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 6          |   7% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | #8         |  18% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########7 |  98% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####1      |  41% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########2  |  83% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 7          |   8% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####1      |  42% [Arust-1.93.1          | 169.6 MB  | #8         |  18% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########3  |  83% [A[A
+
+
+
+python-3.13.12       | 35.6 MB   | #########8 |  98% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 8          |   8% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########4  |  84% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####1      |  42% [A
+
+
+
+python-3.13.12       | 35.6 MB   | #########9 |  99% [A[A[A[Arust-1.93.1          | 169.6 MB  | #8         |  18% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 8          |   9% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####2      |  42% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########4  |  85% [A[Arust-1.93.1          | 169.6 MB  | #8         |  18% 
+
+
+
+python-3.13.12       | 35.6 MB   | #########9 | 100% [A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | 9          |  10% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####2      |  43% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########5  |  85% [A[Arust-1.93.1          | 169.6 MB  | #8         |  19% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #          |  10% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####2      |  43% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########5  |  86% [A[Arust-1.93.1          | 169.6 MB  | #8         |  19% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #1         |  11% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####3      |  43% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########6  |  87% [A[Arust-1.93.1          | 169.6 MB  | #8         |  19% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #2         |  12% [A[A[A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########## | 100% [A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####3      |  44% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########7  |  87% [A[Arust-1.93.1          | 169.6 MB  | #9         |  19% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #2         |  13% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####4      |  44% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########7  |  88% [A[Arust-1.93.1          | 169.6 MB  | #9         |  19% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 1          |   1% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #3         |  14% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####4      |  44% [Arust-1.93.1          | 169.6 MB  | #9         |  19% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 2          |   2% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########8  |  89% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #4         |  14% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####4      |  45% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 3          |   3% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #9         |  20% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########9  |  89% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #5         |  15% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####5      |  45% [Arust-1.93.1          | 169.6 MB  | #9         |  20% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 4          |   4% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########9  |  90% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #5         |  16% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####5      |  45% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 5          |   5% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########  |  90% [A[Arust-1.93.1          | 169.6 MB  | #9         |  20% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #6         |  17% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####5      |  46% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########1 |  91% [A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 6          |   6% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##         |  20% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #7         |  17% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####6      |  46% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 7          |   7% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########1 |  92% [A[Arust-1.93.1          | 169.6 MB  | ##         |  20% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #8         |  18% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####6      |  46% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 8          |   8% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########2 |  92% [A[Arust-1.93.1          | 169.6 MB  | ##         |  20% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #8         |  19% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | 9          |   9% [A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####6      |  47% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########2 |  93% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #9         |  20% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##         |  20% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #          |  11% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########3 |  94% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####7      |  47% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##         |  20% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##         |  21% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #1         |  12% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##1        |  21% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####7      |  47% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########4 |  94% [A[Arust-1.93.1          | 169.6 MB  | ##         |  21% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #2         |  13% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##1        |  22% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########4 |  95% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####7      |  48% [Arust-1.93.1          | 169.6 MB  | ##         |  21% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #3         |  14% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########5 |  95% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####7      |  48% [Arust-1.93.1          | 169.6 MB  | ##         |  21% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##2        |  23% [A[A[A[A[A
+
+
+
+python-3.13.12       | 35.6 MB   | ########## | 100% [A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #5         |  15% [A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####8      |  48% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########5 |  96% [A[Arust-1.93.1          | 169.6 MB  | ##1        |  21% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##3        |  23% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #6         |  16% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########6 |  96% [A[Arust-1.93.1          | 169.6 MB  | ##1        |  21% 
+gcc_impl_linux-64-15 | 78.0 MB   | ####8      |  49% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##3        |  24% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #7         |  17% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########7 |  97% [A[Arust-1.93.1          | 169.6 MB  | ##1        |  21% 
+gcc_impl_linux-64-15 | 78.0 MB   | ####8      |  49% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##4        |  25% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #8         |  18% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##1        |  21% 
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########7 |  98% [A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##5        |  25% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####9      |  49% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #9         |  20% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##1        |  22% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##6        |  26% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########8 |  98% [A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####9      |  49% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##         |  21% [A[A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########8 |  99% [A[Arust-1.93.1          | 169.6 MB  | ##1        |  22% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##6        |  27% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ####9      |  50% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##1        |  22% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##7        |  28% [A[A[A[A[A
+
+sysroot_linux-64-2.3 | 39.6 MB   | #########9 |  99% [A[Arust-1.93.1          | 169.6 MB  | ##1        |  22% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####      |  50% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##2        |  23% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##8        |  28% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  22% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####      |  50% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##4        |  24% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ##9        |  29% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  22% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####      |  51% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##5        |  26% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###        |  30% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  22% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####1     |  51% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##6        |  27% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###        |  31% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####1     |  51% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########## | 100% [A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##8        |  28% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###1       |  32% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####1     |  52% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ##9        |  29% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  23% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###2       |  33% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####2     |  52% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 1          |   1% [A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###        |  31% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##2        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####2     |  52% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###3       |  34% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 2          |   3% [A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###1       |  32% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####2     |  53% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 3          |   4% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###4       |  34% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###3       |  33% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####3     |  53% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 5          |   5% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###5       |  35% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###4       |  34% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  23% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####3     |  53% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 6          |   6% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###5       |  36% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###5       |  35% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  24% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 7          |   8% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####3     |  54% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###6       |  37% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###6       |  37% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  24% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | 9          |   9% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####4     |  54% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###7       |  37% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###7       |  38% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  24% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #          |  10% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####4     |  54% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###7       |  38% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###8       |  39% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##3        |  24% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #1         |  12% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####4     |  55% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###8       |  39% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #3         |  14% [A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  24% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####4     |  55% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ###9       |  40% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ###9       |  40% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  24% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####5     |  55% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #4         |  15% [A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ####2      |  43% [A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####       |  40% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ####5      |  45% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  24% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #6         |  16% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####5     |  56% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####       |  41% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ####8      |  48% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  25% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #7         |  17% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####5     |  56% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####1      |  42% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #####      |  50% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  25% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #8         |  18% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####6     |  56% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####2      |  42% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #####2     |  52% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  25% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #9         |  20% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####2      |  43% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####6     |  56% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #####4     |  54% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##4        |  25% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##         |  21% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####3      |  43% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####6     |  57% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #####6     |  56% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  25% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####4      |  44% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##1        |  22% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####6     |  57% [A
+
+sysroot_linux-64-2.3 | 39.6 MB   | ########## | 100% [A[Arust-1.93.1          | 169.6 MB  | ##5        |  25% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #####8     |  58% [A[A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##3        |  23% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####4      |  45% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####7     |  57% [Arust-1.93.1          | 169.6 MB  | ##5        |  25% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##4        |  25% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####5      |  45% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####7     |  57% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######     |  60% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  25% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####6      |  46% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##5        |  26% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####7     |  58% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######1    |  62% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  26% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##7        |  27% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####7     |  58% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####6      |  47% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  26% 
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######3    |  63% [A[A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##8        |  28% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####8     |  58% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####7      |  47% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  26% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####8     |  59% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######4    |  65% [A[A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ##9        |  30% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####7      |  48% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##5        |  26% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####8     |  59% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###1       |  31% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####8      |  49% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######5    |  66% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  26% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####9     |  59% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###2       |  33% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####9      |  49% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######7    |  67% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  26% 
+gcc_impl_linux-64-15 | 78.0 MB   | #####9     |  60% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###4       |  34% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ####9      |  50% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######8    |  68% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  26% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###5       |  35% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #####9     |  60% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####      |  50% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ######9    |  69% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###6       |  37% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######     |  60% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####1     |  51% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######    |  71% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###8       |  38% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######     |  60% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####1     |  52% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######1   |  72% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ###9       |  40% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####2     |  52% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######     |  61% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######2   |  73% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##6        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####1      |  41% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####3     |  53% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######1    |  61% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######3   |  74% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####2      |  43% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####3     |  54% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######1    |  61% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######5   |  75% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####4      |  44% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####4     |  54% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######1    |  62% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######6   |  76% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  27% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####5      |  46% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####5     |  55% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######1    |  62% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######7   |  78% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  28% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####7      |  47% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####5     |  56% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######2    |  62% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######8   |  79% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  28% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####8      |  48% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####6     |  56% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######2    |  62% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #######9   |  80% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  28% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ####9      |  50% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####7     |  57% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######2    |  63% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########1  |  81% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##7        |  28% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####7     |  58% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####1     |  51% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######3    |  63% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########2  |  82% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  28% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####2     |  53% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####8     |  58% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######3    |  63% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########3  |  83% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  28% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####4     |  54% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####9     |  59% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######3    |  64% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########4  |  84% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  28% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #####9     |  60% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####5     |  55% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######3    |  64% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########5  |  85% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  28% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######     |  60% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####6     |  57% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######4    |  64% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########6  |  87% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######1    |  61% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####8     |  58% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######4    |  64% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########7  |  88% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######1    |  62% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #####9     |  60% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######4    |  65% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########8  |  89% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##8        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######2    |  63% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######1    |  61% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######4    |  65% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########9  |  90% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######3    |  63% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######2    |  62% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######5    |  65% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########  |  91% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######4    |  64% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######3    |  64% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######5    |  65% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########1 |  92% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######4    |  65% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######5    |  65% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######5    |  66% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########3 |  93% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  29% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######5    |  66% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######6    |  67% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######6    |  66% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########4 |  94% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  30% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######6    |  66% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######8    |  68% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######6    |  66% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########5 |  95% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  30% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######6    |  67% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ######9    |  69% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######6    |  67% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########6 |  96% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ##9        |  30% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######7    |  68% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######    |  71% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######6    |  67% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########7 |  98% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###        |  30% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######2   |  72% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######8    |  68% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######7    |  67% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########8 |  99% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###        |  30% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######3   |  74% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######9    |  69% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######7    |  67% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | #########9 | 100% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###        |  30% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######5   |  75% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ######9    |  70% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######7    |  68% [Arust-1.93.1          | 169.6 MB  | ###        |  30% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######6   |  77% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######    |  71% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######8    |  68% [Arust-1.93.1          | 169.6 MB  | ###        |  31% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #######8   |  79% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######1   |  72% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######8    |  68% [A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########## | 100% [A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###        |  31% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########   |  80% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######8    |  69% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######2   |  72% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   |            |   0% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###        |  31% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########2  |  82% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 1          |   1% [A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######9    |  69% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######3   |  73% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  31% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 2          |   3% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########3  |  84% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######9    |  70% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######4   |  74% [A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  31% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 4          |   4% [A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######4   |  75% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ######9    |  70% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########5  |  85% [A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  31% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 5          |   6% [A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######5   |  76% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########6  |  87% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######    |  70% [Arust-1.93.1          | 169.6 MB  | ###1       |  32% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 7          |   7% [A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######    |  71% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######6   |  76% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########8  |  88% [A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-devel_linu | 19.8 MB   | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | 8          |   9% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  32% 
+gcc_impl_linux-64-15 | 78.0 MB   | #######    |  71% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########9  |  90% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######7   |  77% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #          |  10% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  32% 
+gcc_impl_linux-64-15 | 78.0 MB   | #######1   |  71% [A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########  |  91% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######7   |  78% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #1         |  12% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###1       |  32% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########2 |  92% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######1   |  71% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######8   |  78% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #3         |  13% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###2       |  32% 
+gcc_impl_linux-64-15 | 78.0 MB   | #######1   |  72% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######9   |  79% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########3 |  94% [A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###2       |  32% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #4         |  15% [A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #######9   |  80% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########5 |  95% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######2   |  72% [Arust-1.93.1          | 169.6 MB  | ###2       |  32% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #6         |  16% [A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########   |  81% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########6 |  97% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######2   |  72% [Arust-1.93.1          | 169.6 MB  | ###2       |  33% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #7         |  18% [A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########1  |  81% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########8 |  98% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######2   |  73% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #9         |  19% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###2       |  33% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########1  |  82% [A[A[A[A[A
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | #########9 | 100% [A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######2   |  73% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##         |  21% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###2       |  33% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########2  |  83% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######3   |  73% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##2        |  23% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###2       |  33% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########3  |  84% [A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######3   |  74% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##4        |  25% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  33% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########4  |  85% [A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | 1          |   2% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######3   |  74% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##6        |  26% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  33% 
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########5  |  85% [A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | 3          |   3% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######4   |  74% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##7        |  28% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  33% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | 5          |   5% [A[A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########6  |  86% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######4   |  75% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ##9        |  29% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | 7          |   7% [A[A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########6  |  87% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######4   |  75% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###1       |  31% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | 9          |   9% [A[A[A[A[A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########7  |  88% [A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######5   |  75% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###2       |  33% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #1         |  11% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######5   |  75% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########8  |  89% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###4       |  34% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###3       |  34% 
+
+
+
+
+
+
+scipy-1.17.0         | 16.1 MB   | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #3         |  13% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######5   |  76% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########9  |  89% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###5       |  36% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #4         |  15% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######5   |  76% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########  |  90% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###7       |  37% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #6         |  17% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######6   |  76% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########  |  91% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ###9       |  39% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  34% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #8         |  19% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######6   |  76% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########1 |  91% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####       |  41% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##         |  21% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######6   |  77% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########2 |  92% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####2      |  42% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##2        |  23% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######7   |  77% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########2 |  93% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####4      |  44% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##4        |  24% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######7   |  77% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########3 |  94% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####5      |  46% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###4       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##6        |  26% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######7   |  78% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########4 |  94% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####7      |  47% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##8        |  28% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######7   |  78% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########5 |  95% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ####8      |  49% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ##9        |  30% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######8   |  78% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########5 |  96% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####      |  51% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ###1       |  32% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######8   |  79% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########6 |  96% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####2     |  52% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  35% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ###3       |  34% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######8   |  79% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########7 |  97% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####3     |  54% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ###5       |  35% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######9   |  79% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########7 |  98% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####5     |  55% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ###7       |  37% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######9   |  79% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########8 |  99% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####6     |  57% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###5       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ###9       |  39% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #######9   |  80% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | #########9 |  99% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####8     |  58% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ####       |  41% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########   |  80% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #####9     |  60% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ####2      |  43% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########   |  80% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ######1    |  62% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  36% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ####5      |  45% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########   |  81% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ######3    |  64% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  37% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ####7      |  48% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########1  |  81% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ######5    |  66% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  37% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ####9      |  50% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########1  |  81% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ######7    |  67% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###6       |  37% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #####2     |  52% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########1  |  82% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | 2          |   2% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ######9    |  69% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #####4     |  54% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  37% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########2  |  82% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #######    |  71% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #####6     |  57% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  37% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########2  |  82% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | 6          |   7% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #######2   |  72% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #####8     |  59% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  37% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########2  |  83% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | 9          |  10% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #######4   |  74% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######     |  61% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  37% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #2         |  12% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########3  |  83% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######2    |  63% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  38% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #5         |  15% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########3  |  83% [A
+
+
+
+
+llvmlite-0.46.0      | 32.5 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #######5   |  76% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ########   |  80% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######5    |  65% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  38% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #7         |  18% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########3  |  84% [A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ########3  |  84% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ##         |  20% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  38% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########3  |  84% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######6    |  67% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ########7  |  87% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ##2        |  22% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###7       |  38% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########4  |  84% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######8    |  68% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #########  |  90% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ##4        |  25% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########4  |  84% [Arust-1.93.1          | 169.6 MB  | ###8       |  38% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ######9    |  70% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #########3 |  93% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ##7        |  27% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###8       |  38% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########4  |  85% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #######1   |  71% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #########6 |  96% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ##9        |  29% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########4  |  85% [Arust-1.93.1          | 169.6 MB  | ###8       |  38% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #######2   |  73% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ###1       |  31% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########5  |  85% [Arust-1.93.1          | 169.6 MB  | ###8       |  38% 
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | #########8 |  99% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #######4   |  75% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ###3       |  34% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########5  |  86% [Arust-1.93.1          | 169.6 MB  | ###8       |  39% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #######6   |  77% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ###7       |  37% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ########## | 100% [A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###8       |  39% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########5  |  86% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #######9   |  79% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ####       |  40% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###8       |  39% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########6  |  86% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########   |  81% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ####3      |  43% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###9       |  39% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########6  |  86% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########2  |  83% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ####5      |  46% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########6  |  87% [Arust-1.93.1          | 169.6 MB  | ###9       |  39% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########4  |  85% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ####8      |  49% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########7  |  87% [Arust-1.93.1          | 169.6 MB  | ###9       |  39% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########6  |  87% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #####1     |  52% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #1         |  11% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########7  |  87% [Arust-1.93.1          | 169.6 MB  | ###9       |  39% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########8  |  89% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #3         |  14% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###9       |  40% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########7  |  88% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########  |  90% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #####7     |  57% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #6         |  17% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ###9       |  40% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########7  |  88% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########2 |  92% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #9         |  20% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ######     |  60% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########8  |  88% [Arust-1.93.1          | 169.6 MB  | ###9       |  40% 
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########4 |  94% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ##2        |  23% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ######3    |  63% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########8  |  89% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########5 |  96% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####       |  40% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ##5        |  26% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ######5    |  66% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandas-3.0.0         | 14.3 MB   | ########## | 100% [A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########8  |  89% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########7 |  98% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####       |  40% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ##8        |  29% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ######8    |  69% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | #########9 | 100% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########9  |  89% [Arust-1.93.1          | 169.6 MB  | ####       |  40% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #######1   |  72% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ###1       |  32% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########9  |  90% [Arust-1.93.1          | 169.6 MB  | ####       |  40% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #######5   |  75% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ###5       |  35% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########9  |  90% [Arust-1.93.1          | 169.6 MB  | ####       |  41% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ###8       |  39% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #######8   |  79% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########  |  90% [Arust-1.93.1          | 169.6 MB  | ####       |  41% 
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ########2  |  82% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | 2          |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########  |  91% [Arust-1.93.1          | 169.6 MB  | ####       |  41% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | 5          |   5% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ####5      |  45% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ########5  |  85% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########  |  91% [A
+
+
+
+
+
+
+
+
+icu-78.2             | 12.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  41% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ####8      |  48% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ########8  |  89% [A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########1 |  91% [Arust-1.93.1          | 169.6 MB  | ####1      |  41% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #####1     |  52% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #########1 |  91% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  41% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########1 |  92% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #########4 |  94% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  41% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########1 |  92% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #####7     |  58% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #########7 |  97% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########2 |  92% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ######     |  61% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | #########9 | 100% [A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########2 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ##3        |  23% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ######4    |  64% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####1      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########2 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ##8        |  28% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####2      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########3 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | 4          |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ###2       |  32% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #######    |  71% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####2      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########3 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ###6       |  36% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####2      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########3 |  94% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ####       |  40% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #1         |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #######6   |  77% [A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####2      |  42% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########4 |  94% [A
+
+
+
+
+
+
+
+
+
+numpy-2.3.5          | 8.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #5         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #######9   |  80% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########4 |  94% [Arust-1.93.1          | 169.6 MB  | ####2      |  43% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ####7      |  48% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########2  |  83% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########4 |  95% [Arust-1.93.1          | 169.6 MB  | ####2      |  43% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #####1     |  52% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ##2        |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########5  |  86% [A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########5 |  95% [Arust-1.93.1          | 169.6 MB  | ####2      |  43% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########8  |  89% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ###1       |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ######     |  61% [A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########5 |  95% [Arust-1.93.1          | 169.6 MB  | ####3      |  43% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #########1 |  92% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ###5       |  35% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ######4    |  65% [A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########5 |  96% [Arust-1.93.1          | 169.6 MB  | ####3      |  43% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #########4 |  94% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ###9       |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########5 |  96% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ######8    |  69% [A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####3      |  43% 
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | #########7 |  97% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########6 |  96% [Arust-1.93.1          | 169.6 MB  | ####3      |  43% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########6 |  97% [Arust-1.93.1          | 169.6 MB  | ####3      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #####3     |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########6 |  97% [Arust-1.93.1          | 169.6 MB  | ####3      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########1  |  82% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsanitizer-15.2.0  | 7.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #####7     |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########7 |  97% [Arust-1.93.1          | 169.6 MB  | ####3      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########5  |  86% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | 9          |   9% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ######2    |  62% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  44% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########7 |  97% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########9  |  90% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #3         |  14% [A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ######6    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########7 |  98% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #7         |  18% [A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #######1   |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########7 |  98% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #########8 |  98% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ##1        |  22% [A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  44% 
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #######5   |  76% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########8 |  98% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ##7        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ########   |  80% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  45% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########8 |  99% [A
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ###1       |  32% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | 4          |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  45% 
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | #########8 |  99% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ###5       |  36% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ########9  |  89% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####4      |  45% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########9 |  99% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ####       |  40% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #1         |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #########3 |  93% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  45% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########9 |  99% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ####4      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | #########7 |  97% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  45% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########9 | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #7         |  18% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  45% 
+gcc_impl_linux-64-15 | 78.0 MB   | #########9 | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ##2        |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ######1    |  61% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-15.2.0     | 5.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | 5          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ###1       |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####5      |  46% 
+gcc_impl_linux-64-15 | 78.0 MB   | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ###5       |  36% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #6         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ###9       |  40% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #######9   |  80% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ##1        |  22% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ########5  |  86% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  46% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ####8      |  48% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #########1 |  91% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ###1       |  32% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #####2     |  52% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ###6       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | #########6 |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ######     |  61% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ###2       |  32% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####6      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ######4    |  65% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #####5     |  55% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ###7       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ######8    |  69% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ######1    |  61% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ####2      |  43% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #6         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ####7      |  48% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #######6   |  77% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  47% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #####3     |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ########   |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ##5        |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #######8   |  79% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #####8     |  59% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ########5  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ###1       |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ########4  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ######3    |  64% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ########9  |  90% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ###6       |  36% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+numba-0.63.1         | 5.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #########  |  90% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ####1      |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####7      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | #########5 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #######4   |  75% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | #########7 |  98% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ####6      |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####8      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ########   |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #####4     |  54% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####8      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ########9  |  89% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libcups-2.3.3        | 4.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ######     |  60% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####8      |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | #########5 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####8      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ######6    |  66% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####8      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+gcc_impl_linux-64-15 | 78.0 MB   | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+virtualenv-20.36.1   | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #######9   |  80% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gtk3-3.24.43         | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ########5  |  86% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #########1 |  91% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | #########6 |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | ####9      |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.86.3       | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####      |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####      |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####      |  50% rust-1.93.1          | 169.6 MB  | #####      |  51% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####      |  51% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####      |  51% rust-1.93.1          | 169.6 MB  | #####1     |  51% rust-1.93.1          | 169.6 MB  | #####1     |  51% rust-1.93.1          | 169.6 MB  | #####1     |  52% rust-1.93.1          | 169.6 MB  | #####2     |  52% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Arust-1.93.1          | 169.6 MB  | #####2     |  53% rust-1.93.1          | 169.6 MB  | #####2     |  53% rust-1.93.1          | 169.6 MB  | #####3     |  53% rust-1.93.1          | 169.6 MB  | #####3     |  53% rust-1.93.1          | 169.6 MB  | #####3     |  54% rust-1.93.1          | 169.6 MB  | #####3     |  54% rust-1.93.1          | 169.6 MB  | #####3     |  54% rust-1.93.1          | 169.6 MB  | #####4     |  54% rust-1.93.1          | 169.6 MB  | #####4     |  54% rust-1.93.1          | 169.6 MB  | #####4     |  54% rust-1.93.1          | 169.6 MB  | #####4     |  55% rust-1.93.1          | 169.6 MB  | #####4     |  55% rust-1.93.1          | 169.6 MB  | #####4     |  55% rust-1.93.1          | 169.6 MB  | #####4     |  55% rust-1.93.1          | 169.6 MB  | #####5     |  55% rust-1.93.1          | 169.6 MB  | #####5     |  55% rust-1.93.1          | 169.6 MB  | #####5     |  55% rust-1.93.1          | 169.6 MB  | #####5     |  56% rust-1.93.1          | 169.6 MB  | #####5     |  56% rust-1.93.1          | 169.6 MB  | #####6     |  56% rust-1.93.1          | 169.6 MB  | #####6     |  56% rust-1.93.1          | 169.6 MB  | #####6     |  57% rust-1.93.1          | 169.6 MB  | #####6     |  57% rust-1.93.1          | 169.6 MB  | #####6     |  57% rust-1.93.1          | 169.6 MB  | #####7     |  57% rust-1.93.1          | 169.6 MB  | #####7     |  57% rust-1.93.1          | 169.6 MB  | #####7     |  57% rust-1.93.1          | 169.6 MB  | #####7     |  58% rust-1.93.1          | 169.6 MB  | #####7     |  58% rust-1.93.1          | 169.6 MB  | #####8     |  58% rust-1.93.1          | 169.6 MB  | #####8     |  58% rust-1.93.1          | 169.6 MB  | #####8     |  58% rust-1.93.1          | 169.6 MB  | #####8     |  59% rust-1.93.1          | 169.6 MB  | #####8     |  59% rust-1.93.1          | 169.6 MB  | #####8     |  59% rust-1.93.1          | 169.6 MB  | #####9     |  59% rust-1.93.1          | 169.6 MB  | #####9     |  59% rust-1.93.1          | 169.6 MB  | #####9     |  59% rust-1.93.1          | 169.6 MB  | #####9     |  60% rust-1.93.1          | 169.6 MB  | #####9     |  60% rust-1.93.1          | 169.6 MB  | #####9     |  60% rust-1.93.1          | 169.6 MB  | ######     |  60% rust-1.93.1          | 169.6 MB  | ######     |  60% rust-1.93.1          | 169.6 MB  | ######     |  61% rust-1.93.1          | 169.6 MB  | ######     |  61% rust-1.93.1          | 169.6 MB  | ######     |  61% rust-1.93.1          | 169.6 MB  | ######1    |  61% rust-1.93.1          | 169.6 MB  | ######1    |  61% rust-1.93.1          | 169.6 MB  | ######1    |  62% rust-1.93.1          | 169.6 MB  | ######1    |  62% rust-1.93.1          | 169.6 MB  | ######1    |  62% rust-1.93.1          | 169.6 MB  | ######2    |  62% rust-1.93.1          | 169.6 MB  | ######2    |  62% rust-1.93.1          | 169.6 MB  | ######2    |  63% rust-1.93.1          | 169.6 MB  | ######3    |  63% rust-1.93.1          | 169.6 MB  | ######3    |  63% rust-1.93.1          | 169.6 MB  | ######3    |  64% rust-1.93.1          | 169.6 MB  | ######4    |  64% rust-1.93.1          | 169.6 MB  | ######4    |  64% rust-1.93.1          | 169.6 MB  | ######4    |  65% rust-1.93.1          | 169.6 MB  | ######4    |  65% rust-1.93.1          | 169.6 MB  | ######5    |  65% rust-1.93.1          | 169.6 MB  | ######5    |  65% rust-1.93.1          | 169.6 MB  | ######5    |  66% rust-1.93.1          | 169.6 MB  | ######6    |  66% rust-1.93.1          | 169.6 MB  | ######6    |  66% rust-1.93.1          | 169.6 MB  | ######6    |  67% rust-1.93.1          | 169.6 MB  | ######6    |  67% rust-1.93.1          | 169.6 MB  | ######7    |  67% rust-1.93.1          | 169.6 MB  | ######7    |  67% rust-1.93.1          | 169.6 MB  | ######7    |  68% rust-1.93.1          | 169.6 MB  | ######7    |  68% rust-1.93.1          | 169.6 MB  | ######8    |  68% rust-1.93.1          | 169.6 MB  | ######8    |  68% rust-1.93.1          | 169.6 MB  | ######8    |  69% rust-1.93.1          | 169.6 MB  | ######9    |  69% rust-1.93.1          | 169.6 MB  | ######9    |  69% rust-1.93.1          | 169.6 MB  | ######9    |  70% rust-1.93.1          | 169.6 MB  | ######9    |  70% rust-1.93.1          | 169.6 MB  | #######    |  70% rust-1.93.1          | 169.6 MB  | #######    |  70% rust-1.93.1          | 169.6 MB  | #######    |  71% rust-1.93.1          | 169.6 MB  | #######1   |  71% rust-1.93.1          | 169.6 MB  | #######1   |  71% rust-1.93.1          | 169.6 MB  | #######1   |  72% rust-1.93.1          | 169.6 MB  | #######1   |  72% rust-1.93.1          | 169.6 MB  | #######2   |  72% rust-1.93.1          | 169.6 MB  | #######2   |  73% rust-1.93.1          | 169.6 MB  | #######3   |  73% rust-1.93.1          | 169.6 MB  | #######3   |  74% rust-1.93.1          | 169.6 MB  | #######3   |  74% rust-1.93.1          | 169.6 MB  | #######4   |  74% rust-1.93.1          | 169.6 MB  | #######4   |  75% rust-1.93.1          | 169.6 MB  | #######5   |  75% rust-1.93.1          | 169.6 MB  | #######5   |  76% rust-1.93.1          | 169.6 MB  | #######5   |  76% rust-1.93.1          | 169.6 MB  | #######6   |  76% rust-1.93.1          | 169.6 MB  | #######6   |  77% rust-1.93.1          | 169.6 MB  | #######7   |  77% rust-1.93.1          | 169.6 MB  | #######7   |  78% rust-1.93.1          | 169.6 MB  | #######8   |  78% rust-1.93.1          | 169.6 MB  | #######8   |  78% rust-1.93.1          | 169.6 MB  | #######8   |  79% rust-1.93.1          | 169.6 MB  | #######9   |  79% rust-1.93.1          | 169.6 MB  | #######9   |  80% rust-1.93.1          | 169.6 MB  | ########   |  80% rust-1.93.1          | 169.6 MB  | ########   |  80% rust-1.93.1          | 169.6 MB  | ########   |  81% rust-1.93.1          | 169.6 MB  | ########1  |  81% rust-1.93.1          | 169.6 MB  | ########1  |  82% rust-1.93.1          | 169.6 MB  | ########2  |  82% rust-1.93.1          | 169.6 MB  | ########2  |  83% rust-1.93.1          | 169.6 MB  | ########3  |  83% rust-1.93.1          | 169.6 MB  | ########3  |  84% rust-1.93.1          | 169.6 MB  | ########4  |  84% rust-1.93.1          | 169.6 MB  | ########4  |  85% rust-1.93.1          | 169.6 MB  | ########5  |  85% rust-1.93.1          | 169.6 MB  | ########5  |  86% rust-1.93.1          | 169.6 MB  | ########6  |  86% rust-1.93.1          | 169.6 MB  | ########6  |  87% rust-1.93.1          | 169.6 MB  | ########7  |  87% rust-1.93.1          | 169.6 MB  | ########7  |  88% rust-1.93.1          | 169.6 MB  | ########8  |  88% rust-1.93.1          | 169.6 MB  | ########8  |  89% rust-1.93.1          | 169.6 MB  | ########9  |  89% rust-1.93.1          | 169.6 MB  | ########9  |  90% rust-1.93.1          | 169.6 MB  | #########  |  90% rust-1.93.1          | 169.6 MB  | #########1 |  91% rust-1.93.1          | 169.6 MB  | #########1 |  92% rust-1.93.1          | 169.6 MB  | #########2 |  92% rust-1.93.1          | 169.6 MB  | #########2 |  93% rust-1.93.1          | 169.6 MB  | #########3 |  93% rust-1.93.1          | 169.6 MB  | #########4 |  94% rust-1.93.1          | 169.6 MB  | #########4 |  95% rust-1.93.1          | 169.6 MB  | #########5 |  95% rust-1.93.1          | 169.6 MB  | #########5 |  96% rust-1.93.1          | 169.6 MB  | #########6 |  96% rust-1.93.1          | 169.6 MB  | #########6 |  97% rust-1.93.1          | 169.6 MB  | #########7 |  98% rust-1.93.1          | 169.6 MB  | #########8 |  98% rust-1.93.1          | 169.6 MB  | #########8 |  99% rust-1.93.1          | 169.6 MB  | #########9 |  99% rust-1.93.1          | 169.6 MB  | #########9 | 100% rust-1.93.1          | 169.6 MB  | ########## | 100% rust-1.93.1          | 169.6 MB  | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A done
+Preparing transaction: - \ | / - \ | / - \ | / - \ | / - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | 
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / 
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - 
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Installing pip dependencies: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - Ran pip subprocess with arguments:
+['/home/hilton/anaconda3/envs/hummingbot/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt', '--exists-action=b']
+Pip subprocess output:
+Collecting injective-py==1.12.* (from -r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading injective_py-1.12.0-py3-none-any.whl.metadata (6.2 kB)
+Requirement already satisfied: aiohttp<4.0.0,>=3.9.4 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (3.13.3)
+Collecting bech32 (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading bech32-1.2.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting bip32 (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading bip32-5.0.0-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: ecdsa in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.19.1)
+Collecting eip712 (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading eip712-0.3.3-py3-none-any.whl.metadata (3.4 kB)
+Collecting grpcio (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading grpcio-1.78.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.8 kB)
+Collecting grpcio-tools (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading grpcio_tools-1.78.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.3 kB)
+Collecting hdwallets (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading hdwallets-0.1.2-py3-none-any.whl.metadata (6.4 kB)
+Collecting mnemonic (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading mnemonic-0.21-py3-none-any.whl.metadata (3.4 kB)
+Collecting protobuf<6.0.0,>=5.26.1 (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading protobuf-5.29.6-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Requirement already satisfied: requests in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.32.5)
+Requirement already satisfied: safe-pysha3 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.0.4)
+Requirement already satisfied: web3<8.0.0,>=7.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (7.14.1)
+Requirement already satisfied: websockets in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (11.0.3)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.7.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.3.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.22.0)
+Requirement already satisfied: eth-abi>=5.0.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (5.2.0)
+Requirement already satisfied: eth-account>=0.13.6 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.13.7)
+Requirement already satisfied: eth-hash>=0.5.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-hash[pycryptodome]>=0.5.1->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.7.1)
+Requirement already satisfied: eth-typing>=5.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (5.2.1)
+Requirement already satisfied: eth-utils>=5.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (5.3.1)
+Requirement already satisfied: hexbytes>=1.2.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: pydantic>=2.4.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.12.5)
+Requirement already satisfied: typing-extensions>=4.0.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (4.15.0)
+Requirement already satisfied: types-requests>=2.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.31.0.6)
+Requirement already satisfied: pyunormalize>=15.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (17.0.0)
+Requirement already satisfied: idna>=2.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from yarl<2.0,>=1.17.0->aiohttp<4.0.0,>=3.9.4->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (3.11)
+Requirement already satisfied: parsimonious<0.11.0,>=0.10.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-abi>=5.0.1->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.10.0)
+Requirement already satisfied: regex>=2022.3.15 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from parsimonious<0.11.0,>=0.10.0->eth-abi>=5.0.1->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2026.1.15)
+Requirement already satisfied: bitarray>=2.4.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (3.8.0)
+Requirement already satisfied: eth-keyfile<0.9.0,>=0.7.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.8.1)
+Requirement already satisfied: eth-keys>=0.4.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.7.0)
+Requirement already satisfied: eth-rlp>=2.1.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: rlp>=1.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (4.1.0)
+Requirement already satisfied: ckzg>=2.0.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.1.5)
+Requirement already satisfied: pycryptodome<4,>=3.6.6 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-keyfile<0.9.0,>=0.7.0->eth-account>=0.13.6->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (3.23.0)
+Requirement already satisfied: cytoolz>=0.10.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from eth-utils>=5.0.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.1.0)
+Requirement already satisfied: annotated-types>=0.6.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from pydantic>=2.4.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from pydantic>=2.4.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from pydantic>=2.4.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (0.4.2)
+Requirement already satisfied: toolz>=0.8.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from cytoolz>=0.10.1->eth-utils>=5.0.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.1.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from requests->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from requests->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.26.20)
+Requirement already satisfied: certifi>=2017.4.17 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from requests->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2026.1.4)
+Requirement already satisfied: types-urllib3 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from types-requests>=2.0.0->web3<8.0.0,>=7.0.0->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.26.25.14)
+Requirement already satisfied: coincurve<21,>=15.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from bip32->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (19.0.1)
+Requirement already satisfied: asn1crypto in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from coincurve<21,>=15.0->bip32->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.5.1)
+Requirement already satisfied: cffi>=1.3.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from coincurve<21,>=15.0->bip32->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.17.1)
+Requirement already satisfied: pycparser in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from cffi>=1.3.0->coincurve<21,>=15.0->bip32->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (2.22)
+Requirement already satisfied: six>=1.9.0 in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from ecdsa->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (1.17.0)
+Collecting eth-pydantic-types<0.3,>=0.2.4 (from eip712->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading eth_pydantic_types-0.2.5-py3-none-any.whl.metadata (5.3 kB)
+Collecting cchecksum<1,>=0.0.3 (from eth-pydantic-types<0.3,>=0.2.4->eip712->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading cchecksum-0.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.0 kB)
+INFO: pip is looking at multiple versions of grpcio-tools to determine which version is compatible with other requirements. This could take a while.
+Collecting grpcio-tools (from injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1))
+  Downloading grpcio_tools-1.76.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.75.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.75.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.74.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.73.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.73.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.72.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+INFO: pip is still looking at multiple versions of grpcio-tools to determine which version is compatible with other requirements. This could take a while.
+  Downloading grpcio_tools-1.72.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+  Downloading grpcio_tools-1.71.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
+Requirement already satisfied: setuptools in /home/hilton/anaconda3/envs/hummingbot/lib/python3.13/site-packages (from grpcio-tools->injective-py==1.12.*->-r /home/hilton/github_forks/hummingbot/setup/condaenv.vxe4rcr2.requirements.txt (line 1)) (80.8.0)
+Downloading injective_py-1.12.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 4.1 MB/s  0:00:00
+Downloading protobuf-5.29.6-cp38-abi3-manylinux2014_x86_64.whl (320 kB)
+Downloading bech32-1.2.0-py3-none-any.whl (4.6 kB)
+Downloading bip32-5.0.0-py3-none-any.whl (13 kB)
+Downloading eip712-0.3.3-py3-none-any.whl (11 kB)
+Downloading eth_pydantic_types-0.2.5-py3-none-any.whl (19 kB)
+Downloading cchecksum-0.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (702 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 702.6/702.6 kB 3.8 MB/s  0:00:00
+Downloading grpcio-1.78.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (6.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 9.1 MB/s  0:00:00
+Downloading grpcio_tools-1.71.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 7.2 MB/s  0:00:00
+Downloading hdwallets-0.1.2-py3-none-any.whl (8.6 kB)
+Downloading mnemonic-0.21-py3-none-any.whl (92 kB)
+Installing collected packages: protobuf, mnemonic, grpcio, bech32, hdwallets, grpcio-tools, cchecksum, bip32, eth-pydantic-types, eip712, injective-py
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 6.33.5
+    Uninstalling protobuf-6.33.5:
+      Successfully uninstalled protobuf-6.33.5
+
+Successfully installed bech32-1.2.0 bip32-5.0.0 cchecksum-0.4.1 eip712-0.3.3 eth-pydantic-types-0.2.5 grpcio-1.78.0 grpcio-tools-1.71.2 hdwallets-0.1.2 injective-py-1.12.0 mnemonic-0.21 protobuf-5.29.6
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate hummingbot
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+added /home/hilton/github_forks/hummingbot
+completed operation for: /home/hilton/github_forks/hummingbot
+pre-commit installed at .git/hooks/pre-commit

@@ -1,0 +1,106 @@
+2026-02-19 17:33:36 | info | 	Getting available DEX connectors and networks
+2026-02-19 17:33:36 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 17:33:36 | info | 	Getting available blockchain networks
+2026-02-19 17:33:36 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 17:33:36 | info | 	Getting all configuration namespaces
+2026-02-19 17:33:36 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 17:33:36 | info | 	Getting all configurations
+2026-02-19 17:37:30 | info | 	Getting available DEX connectors and networks
+2026-02-19 17:37:30 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 17:37:30 | info | 	Getting available blockchain networks
+2026-02-19 17:37:30 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 17:37:30 | info | 	Getting all configuration namespaces
+2026-02-19 17:37:30 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 17:37:30 | info | 	Getting all configurations
+2026-02-19 17:47:26 | info | 	Getting available DEX connectors and networks
+2026-02-19 17:47:26 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 17:47:26 | info | 	Getting available blockchain networks
+2026-02-19 17:47:26 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 17:47:26 | info | 	Getting all configuration namespaces
+2026-02-19 17:47:26 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 17:47:26 | info | 	Getting all configurations
+2026-02-19 17:54:15 | info | 	Getting available DEX connectors and networks
+2026-02-19 17:54:15 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 17:54:15 | info | 	Getting available blockchain networks
+2026-02-19 17:54:15 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 17:54:15 | info | 	Getting all configuration namespaces
+2026-02-19 17:54:15 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 17:54:15 | info | 	Getting all configurations
+2026-02-19 17:58:55 | info | 	Getting available DEX connectors and networks
+2026-02-19 17:58:55 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 17:58:55 | info | 	Getting available blockchain networks
+2026-02-19 17:58:55 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 17:58:55 | info | 	Getting all configuration namespaces
+2026-02-19 17:58:55 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 17:58:55 | info | 	Getting all configurations
+2026-02-19 20:12:05 | info | 	Getting available DEX connectors and networks
+2026-02-19 20:12:05 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 20:12:05 | info | 	Getting available blockchain networks
+2026-02-19 20:12:05 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 20:12:05 | info | 	Getting all configuration namespaces
+2026-02-19 20:12:05 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 20:12:05 | info | 	Getting all configurations
+2026-02-19 20:18:53 | info | 	Getting available DEX connectors and networks
+2026-02-19 20:18:53 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 20:18:53 | info | 	Getting available blockchain networks
+2026-02-19 20:18:53 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 20:18:53 | info | 	Getting all configuration namespaces
+2026-02-19 20:18:53 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 20:18:53 | info | 	Getting all configurations
+2026-02-19 20:20:31 | info | 	Getting available DEX connectors and networks
+2026-02-19 20:20:31 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 20:20:31 | info | 	Getting available blockchain networks
+2026-02-19 20:20:31 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 20:20:31 | info | 	Getting all configuration namespaces
+2026-02-19 20:20:31 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 20:20:31 | info | 	Getting all configurations
+2026-02-19 20:23:23 | info | 	Getting available DEX connectors and networks
+2026-02-19 20:23:23 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 20:23:23 | info | 	Getting available blockchain networks
+2026-02-19 20:23:23 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 20:23:23 | info | 	Getting all configuration namespaces
+2026-02-19 20:23:23 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 20:23:23 | info | 	Getting all configurations
+2026-02-19 20:34:54 | info | 	Getting available DEX connectors and networks
+2026-02-19 20:34:54 | info | 	Available connectors: jupiter, meteora, raydium, uniswap, 0x, pancakeswap, pancakeswap-sol, orca
+2026-02-19 20:34:54 | info | 	Getting available blockchain networks
+2026-02-19 20:34:54 | info | 	Available chains: ethereum (9 networks), solana (2 networks)
+2026-02-19 20:34:54 | info | 	Getting all configuration namespaces
+2026-02-19 20:34:54 | info | 	Found 23 namespaces: 0x, apiKeys, ethereum, ethereum-arbitrum, ethereum-avalanche, ethereum-base, ethereum-bsc, ethereum-celo, ethereum-mainnet, ethereum-optimism, ethereum-polygon, ethereum-sepolia, jupiter, meteora, orca, pancakeswap, pancakeswap-sol, raydium, server, solana, solana-devnet, solana-mainnet-beta, uniswap
+2026-02-19 20:34:54 | info | 	Getting all configurations
+2026-02-20 04:06:11 | info | 	⚡️ Gateway version 2.12.0 starting at http://localhost:15888
+2026-02-20 04:06:11 | info | 	🔧 Log level configured as: info
+2026-02-20 04:06:11 | info | 	Checking for processes using port 15888...
+2026-02-20 04:06:11 | info | 	No process found using port 15888
+2026-02-20 04:06:11 | info | 	🔴 Running in development mode with (unsafe!) HTTP endpoints
+2026-02-20 04:06:13 | info | 	📓 Documentation available at http://localhost:15888/docs
+2026-02-20 04:06:13 | info | 	🌐 Chain Configurations:
+2026-02-20 04:06:13 | info | 	📡 Solana (defaultNetwork: mainnet-beta): Block #401,524,847 - https://api.mainnet-beta.solana.com
+2026-02-20 04:06:14 | info | 	📡 Ethereum (defaultNetwork: mainnet): Block #24,497,952 - https://eth.llamarpc.com
+2026-02-20 04:09:24 | info | 	⚡️ Gateway version 2.12.0 starting at http://localhost:15888
+2026-02-20 04:09:24 | info | 	🔧 Log level configured as: info
+2026-02-20 04:09:24 | info | 	Checking for processes using port 15888...
+2026-02-20 04:09:24 | info | 	No process found using port 15888
+2026-02-20 04:09:24 | info | 	🔴 Running in development mode with (unsafe!) HTTP endpoints
+2026-02-20 04:09:25 | info | 	📓 Documentation available at http://localhost:15888/docs
+2026-02-20 04:09:25 | info | 	🌐 Chain Configurations:
+2026-02-20 04:09:26 | info | 	📡 Solana (defaultNetwork: mainnet-beta): Block #401,525,338 - https://api.mainnet-beta.solana.com
+2026-02-20 04:09:26 | info | 	📡 Ethereum (defaultNetwork: mainnet): Block #24,497,968 - https://eth.llamarpc.com
+2026-02-20 08:16:55 | info | 	⚡️ Gateway version 2.12.0 starting at http://localhost:15888
+2026-02-20 08:16:55 | info | 	🔧 Log level configured as: info
+2026-02-20 08:16:55 | info | 	Checking for processes using port 15888...
+2026-02-20 08:16:55 | info | 	No process found using port 15888
+2026-02-20 08:16:55 | info | 	🔴 Running in development mode with (unsafe!) HTTP endpoints
+2026-02-20 08:16:57 | info | 	📓 Documentation available at http://localhost:15888/docs
+2026-02-20 08:16:57 | info | 	🌐 Chain Configurations:
+2026-02-20 08:16:57 | info | 	📡 Solana (defaultNetwork: mainnet-beta): Block #401,563,078 - https://api.mainnet-beta.solana.com
+2026-02-20 08:16:58 | info | 	📡 Ethereum (defaultNetwork: mainnet): Block #24,499,200 - https://eth.llamarpc.com
+2026-02-20 08:29:08 | info | 	⚡️ Gateway version 2.12.0 starting at http://localhost:15888
+2026-02-20 08:29:08 | info | 	🔧 Log level configured as: info
+2026-02-20 08:29:08 | info | 	Checking for processes using port 15888...
+2026-02-20 08:29:08 | info | 	No process found using port 15888
+2026-02-20 08:29:08 | info | 	🔴 Running in development mode with (unsafe!) HTTP endpoints
+2026-02-20 08:29:09 | info | 	📓 Documentation available at http://localhost:15888/docs
+2026-02-20 08:29:09 | info | 	🌐 Chain Configurations:
+2026-02-20 08:29:10 | info | 	📡 Solana (defaultNetwork: mainnet-beta): Block #401,564,930 - https://api.mainnet-beta.solana.com
+2026-02-20 08:29:10 | info | 	📡 Ethereum (defaultNetwork: mainnet): Block #24,499,261 - https://eth.llamarpc.com

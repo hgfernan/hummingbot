@@ -6,11 +6,13 @@ Description: Script to download order book snapshots for specified trading pairs
 Obs: Adapted from download_order_book_and_trades.py, removing the trades related code and logic.
 """
 
+import os.path # join()
+
 import logging
 import datetime # class datetime
 
-from typing import Dict, Set
-from pprint import pprint
+from typing import Dict, Optional, Set
+import pprint # pformat()
 
 import pandas as pd
 from pydantic import BaseModel # data manipulation library
@@ -20,8 +22,12 @@ from hummingbot.connector.connector_base import ConnectorBase # base class for c
 from hummingbot.strategy.script_strategy_base import ScriptStrategyBase
 from hummingbot.client.hummingbot_application import HummingbotApplication
 from hummingbot.logger import HummingbotLogger
+from hummingbot.client.settings import DEFAULT_LOG_FILE_PATH
 
-lsb_logger = None
+LSB_LOGGER : Optional[logging.Logger] = None
+
+def log_path() -> str:
+    return DEFAULT_LOG_FILE_PATH
 
 class DownloadOrderBookSnapshots(ScriptStrategyBase):
     """
@@ -50,14 +56,40 @@ class DownloadOrderBookSnapshots(ScriptStrategyBase):
     # HINT file path for storing order book snapshots
     ob_file_path : str = \
         f"{data_path()}/orderbook_{start_ts.strftime('%Y%m%d_%H%M%S')}.csv"
-    
+
+    log_level : int = logging.INFO
+    save_log : bool = True
+
     @classmethod
     def logger(cls) -> HummingbotLogger:
-        global lsb_logger
-        if lsb_logger is None:
-            lsb_logger = logging.getLogger(__name__)
 
-        return lsb_logger
+        global LSB_LOGGER
+        log_format : str = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+        if LSB_LOGGER is not None:
+            return LSB_LOGGER
+
+        LSB_LOGGER = logging.getLogger(__name__)
+        LSB_LOGGER.setLevel(cls.log_level)
+        formatter : logging.Formatter = logging.Formatter(log_format)
+
+        ch = logging.StreamHandler()
+        ch.setLevel(cls.log_level)
+        ch.setFormatter(formatter)
+
+        LSB_LOGGER.addHandler(ch)
+
+        if cls.save_log:
+            log_file_path = os.path.join(log_path(), __name__ + '.log')
+
+            file_handler = logging.FileHandler(log_file_path)
+            file_handler.setLevel(cls.log_level)
+            file_handler.setFormatter(formatter)
+
+            LSB_LOGGER.addHandler(file_handler)
+        
+
+        return LSB_LOGGER
 
     @classmethod
     def init_markets(cls, config: BaseModel) -> None:
@@ -87,21 +119,24 @@ class DownloadOrderBookSnapshots(ScriptStrategyBase):
         if self.dump_count < self.n_dumps:
             order_book_data : Dict[str, object] = \
                 self.get_order_book_dict(self.exchange, self.trading_pair, self.depth)
-            
+
             if not order_book_data["bids"] and not order_book_data["asks"]:
                 self.logger().warning("No order book data available for %s on %s",
                                       self.trading_pair, self.exchange)
                 return
-            
+
             if self.dump_count == 0:
                 self.logger().info("Starting to collect order book snapshots for %s on %s",
                                    self.trading_pair, self.exchange)
-                pprint(dir(order_book_data))                
+                # self.logger().info(pprint.pformat(dir(order_book_data)))
 
             # HINT append the order book data to the temporary storage
             self.ob_temp_storage = \
                 pd.concat([self.ob_temp_storage, pd.DataFrame([order_book_data])],
                           ignore_index=True)
+
+            self.logger().info("Collected order book snapshot %d for %s on %s",
+                               self.dump_count + 1, self.trading_pair, self.exchange)
 
             self.dump_count += 1
             self.last_ts = current_ts
@@ -128,7 +163,16 @@ class DownloadOrderBookSnapshots(ScriptStrategyBase):
         # HINT get the order book from the connector
         order_book = self.connectors[exchange].get_order_book(trading_pair)
 
-        # HINT get the snapshot of the order book and format it as a dictionary
+        # HINT get the snapshot of the order book
+        snapshot = order_book.snapshot
+
+        if self.dump_count == 0:
+            self.logger().info("Order book directory:\n%s",
+                                pprint.pformat(dir(order_book)) )
+            self.logger().info("Order book snapshot directory:\n%s",
+                                pprint.pformat(dir(snapshot)) )
+
+        # HINT format the snapshot of the order book as a dictionary
         snapshot = order_book.snapshot
         return {
             # HINT timestamp of the snapshot
@@ -145,6 +189,9 @@ class DownloadOrderBookSnapshots(ScriptStrategyBase):
         """
         Save the temporary storage to a CSV file
         """
-        self.ob_temp_storage.to_csv(self.ob_file_path, index=False)
+        df : pd.DataFrame = self.ob_temp_storage.explode('bids', ignore_index=True)
+        df = df.explode('asks', ignore_index=True)
+        df.to_csv(self.ob_file_path, index=False)
+
         msg : str = f"Order book snapshots saved to {self.ob_file_path}"
         self.logger().info(msg)
