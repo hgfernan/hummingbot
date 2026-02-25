@@ -17,7 +17,7 @@ repos:
         args: ["--in-place", "--max-line-length=120", "--select=E26,E114,E117,E128,E129,E201,E202,E225,E226,E231,E261,E301,E302,E303,E304,E305,E306,E401,W291,W292,W293,W391"]
 
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.10.0
+    rev: v10.0.2
     hooks:
     -   id: eslint
         files: \.[jt]sx?$  # *.js, *.jsx, *.ts and *.tsx
@@ -29,7 +29,7 @@ repos:
         types: [file]
         exclude: .json
 -   repo: https://github.com/pycqa/isort
-    rev: 5.12.0
+    rev: 8.0.0
     hooks:
       - id: isort
         files: "\\.(py)$"

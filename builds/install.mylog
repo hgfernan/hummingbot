@@ -1,0 +1,22 @@
+
+CondaToSNonInteractiveError: Terms of Service have not been accepted for the following channels. Please accept or remove them before proceeding:
+    - https://repo.anaconda.com/pkgs/main
+    - https://repo.anaconda.com/pkgs/r
+
+To accept these channels' Terms of Service, run the following commands:
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+
+For information on safely removing channels from your conda configuration,
+please see the official documentation:
+
+    https://www.anaconda.com/docs/tools/working-with-conda/channels
+
+
+EnvironmentNameNotFound: Could not find conda environment: hummingbot
+You can list all discoverable environments with `conda info --envs`.
+
+
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'develop' (choose from activate, clean, commands, compare, config, content-trust, create, deactivate, doctor, env, export, info, init, install, list, menuinst, notices, package, remove, rename, repoquery, run, search, token, tos, uninstall, update, upgrade)
+./install: line 68: pre-commit: command not found
