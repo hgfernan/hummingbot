@@ -138,12 +138,18 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
 
         self.current_date = datetime.now().strftime("%Y-%m-%d")
         self.ob_file_paths = {
-            trading_pair: self.get_file(self.exchange, trading_pair, "order_book_snapshots", self.current_date)
+            trading_pair: self.get_file(self.exchange,
+                                        trading_pair,
+                                        "order_book_snapshots",
+                                        self.current_date)
             for trading_pair in self.trading_pairs
         }
 
         self.trades_file_paths = {
-            trading_pair: self.get_file(self.exchange, trading_pair, "trades", self.current_date)
+            trading_pair: self.get_file(self.exchange,
+                                        trading_pair,
+                                        "trades",
+                                        self.current_date)
             for trading_pair in self.trading_pairs
         }
 
