@@ -16,6 +16,7 @@ from typing import Any, Dict
 from pydantic import BaseModel
 
 from hummingbot import data_path
+from hummingbot.client.hummingbot_application import HummingbotApplication
 from hummingbot.connector.connector_base import ConnectorBase
 from hummingbot.core.event.event_forwarder import SourceInfoEventForwarder
 from hummingbot.core.event.events import OrderBookEvent, OrderBookTradeEvent
@@ -48,6 +49,10 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
     markets = {exchange: set(trading_pairs)}
     subscribed_to_order_book_trade_event: bool = False
 
+    market_shown: bool = False
+    tick_counter: int = 0
+    max_ticks: int = 50
+
     @classmethod
     def init_markets(cls, config: BaseModel):
         """
@@ -60,6 +65,9 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
     def __init__(self, connectors: Dict[str, ConnectorBase]):
         """
         Initialize the class strategy instance.
+
+        :param connectors: A dictionary of market connectors that the strategy will use, with
+            the keys being the exchange names and the values being the connector instances.
         """
         super().__init__(connectors)
         self.create_order_book_and_trade_files()
@@ -75,25 +83,35 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
 
         if not self.subscribed_to_order_book_trade_event:
             self.subscribe_to_order_book_trade_event()
+
         self.check_and_replace_files()
         for trading_pair in self.trading_pairs:
             order_book_data = self.get_order_book_dict(self.exchange, trading_pair, self.depth)
             self.ob_temp_storage[trading_pair].append(order_book_data)
+
         if self.last_dump_timestamp < self.current_timestamp:
             self.dump_and_clean_temp_storage()
+
+        self.tick_counter += 1
+
+        if self.tick_counter >= self.max_ticks:
+            HummingbotApplication.main_application().stop()
 
     def get_order_book_dict(self, exchange: str, trading_pair: str, depth: int = 50):
         """
         Return a dictionary representation of the order book snapshot for a given trading pair.
+
         :param exchange: The name of the exchange to get the order book from.
         :param trading_pair: The trading pair to get the order book for.
         :param depth: The number of levels to include in the order book snapshot.
+
         :return:
             A dictionary containing the timestamp, bids, and asks of the order book snapshot.
         """
 
         order_book = self.connectors[exchange].get_order_book(trading_pair)
         snapshot = order_book.snapshot
+
         return {
             "ts": self.current_timestamp,
             "bids": snapshot[0].loc[: (depth - 1), ["price", "amount"]].values.tolist(),
@@ -104,6 +122,7 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
         """
         Dump the data in the temporary storage to the file and clean the temporary storage.
         """
+
         for trading_pair, order_book_info in self.ob_temp_storage.items():
             file = self.ob_file_paths[trading_pair]
             json_strings = [json.dumps(obj) for obj in order_book_info]
@@ -118,7 +137,15 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
             file.write("\n" + json_data)
             self.trades_temp_storage[trading_pair] = []
 
+        if (self.tick_counter % 10) == 0:
+            msg: str = f"Tick {self.tick_counter}, " + \
+                f"{len(self.ob_temp_storage.items())=}, " + \
+                f"{len(self.trades_temp_storage.items())=}"
+            self.logger().info(msg)
+
         self.last_dump_timestamp = self.current_timestamp + self.time_between_csv_dumps
+
+        self.subscribed_to_order_book_trade_event = False
 
     def check_and_replace_files(self):
         """
@@ -136,7 +163,9 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
         Create the order book and trade files for each trading pair.
         """
 
-        self.current_date = datetime.now().strftime("%Y-%m-%d")
+        # self.current_date = datetime.now().strftime("%Y-%m-%d")
+        # self.current_date = datetime.now().strftime("%Y%m%d")
+        self.current_date = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.ob_file_paths = {
             trading_pair: self.get_file(self.exchange,
                                         trading_pair,
@@ -170,7 +199,10 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
 
         return open(file_path, "a", encoding="utf-8")
 
-    def _process_public_trade(self, event_tag: int, market: ConnectorBase, event: OrderBookTradeEvent):
+    def _process_public_trade(self,
+                              event_tag: int,
+                              market: ConnectorBase,
+                              event: OrderBookTradeEvent) -> None:
         """
         Process the public trade event and store the trade data in the temporary storage.
 
@@ -178,13 +210,23 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
         :param market: The market connector that emitted the event.
         :param event: The OrderBookTradeEvent containing the trade data.
         """
-        print(f"{event_tag=}, {market=}, {event=}")
+        if not self.market_shown:
+            msg: str = "\n".join(dir(market))
+            self.logger().info("Tick: %d dir(market):\n%s", msg)
+
+            self.market_shown = True
+
+        if (self.tick_counter % 100) == 0:
+            self.logger().info("Tick %d, vent_tag %d, event %s",
+                               self.tick_counter, event_tag, event)
+
         self.trades_temp_storage[event.trading_pair].append(
             {
                 "ts": event.timestamp,
                 "price": event.price,
                 "q_base": event.amount,
                 "side": event.type.name.lower(),
+                "taker": event.is_taker
             }
         )
 
