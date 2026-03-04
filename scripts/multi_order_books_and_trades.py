@@ -51,7 +51,7 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
 
     market_shown: bool = False
     tick_counter: int = 0
-    max_ticks: int = 50
+    max_ticks: int = 1000
 
     @classmethod
     def init_markets(cls, config: BaseModel):
@@ -212,7 +212,7 @@ class MultiOrderBooksAndTrades(ScriptStrategyBase):
         """
         if not self.market_shown:
             msg: str = "\n".join(dir(market))
-            self.logger().info("Tick: %d dir(market):\n%s", msg)
+            self.logger().info("Tick: %d dir(market):\n%s", self.tick_counter, msg)
 
             self.market_shown = True
 
