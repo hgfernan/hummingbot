@@ -30,6 +30,8 @@ from hummingbot.core.event.events import (  # BuyOrderCreatedEvent,; SellOrderCr
     OrderCancelledEvent,
     OrderExpiredEvent,
     OrderFilledEvent,
+    OrderType,
+    PositionAction,
     SellOrderCompletedEvent,
 )
 from hummingbot.strategy.script_strategy_base import ScriptStrategyBase
@@ -46,15 +48,35 @@ class RttState(enum.Enum):
     RESTORE_ACTION = enum.auto()
     STOP = enum.auto()
 
+    def get_description(self) -> str:
+        """
+        Mapping of RttState values to descriptions
+        """
+        result: str = ""
+        match self:
+            case self.START:
+                result = "Processing Start"
 
-state_full_name: Dict[RttState, str] = {
-    RttState.START: "Processing Start",
-    RttState.TRANSFORM_CALC: "Transformation Calculus",
-    RttState.TRANSFORM_ACTION: "Transformation Action",
-    RttState.RESTORE_CALC: "Restoration Calculus",
-    RttState.RESTORE_ACTION: "Restoration Action",
-    RttState.STOP: "Processing Stop"
-}
+            case self.TRANSFORM_CALC:
+                result = "Transformation Calculus"
+
+            case self.TRANSFORM_ACTION:
+                result = "Transformation Action"
+
+            case self.RESTORE_CALC:
+                result = "Restoration Calculus"
+
+            case self.RESTORE_ACTION:
+                result = "Restoration Action"
+
+            case self.STOP:
+                result = "Processing Stop"
+
+            case _:
+                result = f"Unknown or invalid state: {self}"
+
+        # HINT Normal function termination
+        return result
 
 
 class TransformParams(BaseModel):
@@ -80,6 +102,22 @@ class PriceAmount(BaseModel):
     """
     amount: Decimal = Decimal(0.0)
     price: Decimal = Decimal(0.0)
+
+# OrderParams = Dict[str, Union[str, Decimal, OrderType, PositionAction]]
+
+
+class OrderParams(BaseModel):
+    """
+    All parameters for order placing RoundTripTrading methods `buy()` and `sell()`
+    """
+    side: str = ""
+    state_name: str = ""
+    connector_name: str = ""
+    trading_pair: str = ""
+    amount: Decimal = Decimal(0)
+    order_type: OrderType = OrderType.LIMIT
+    price: Decimal = Decimal(0)
+    position_action: PositionAction = PositionAction.OPEN
 
 
 class Accumulator(ABC):
@@ -243,7 +281,7 @@ class Accumulator(ABC):
         """
 
     @abstractmethod
-    def execute_accumulation(self) -> None:
+    def execute_accumulation(self) -> OrderParams:
         """
         Manage the finite state automaton for the accumulation, and keep
         a log of gain and loss
@@ -285,19 +323,19 @@ class Accumulator(ABC):
 
     def did_fail_order(self, event: MarketOrderFailureEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
     def did_cancel_order(self, event: OrderCancelledEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
     def did_expire_order(self, event: OrderExpiredEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
@@ -321,7 +359,7 @@ class Accumulator(ABC):
 
     def mandatory_stop(self) -> RttState:
         """
-        Cause the slave to go to the STOP state
+        Cause the helper to go to the STOP state
         """
 
         result: RttState = self.curr_state
@@ -391,31 +429,47 @@ class QuoteAccumulator(Accumulator):
         # HINT Normal function termination
         return result
 
-    def execute_accumulation(self) -> None:
+    def execute_accumulation(self) -> OrderParams:
         """
         Manage the finite state automaton for the accumulation, and keep
         a log of gain and loss
         """
+
+        result: OrderParams = OrderParams()
 
         state: RttState = self.get_current_state()
         match state:
             case RttState.START:
                 self.logger().info(state.name)
 
+                result.state_name = state.get_description()
+
             case RttState.TRANSFORM_CALC:
                 self.logger().info(state.name)
+
+                result.state_name = state.get_description()
 
             case RttState.TRANSFORM_ACTION:
                 self.logger().info(state.name)
 
+                result.side = "buy"
+                result.state_name = state.get_description()
+
             case RttState.RESTORE_CALC:
                 self.logger().info(state.name)
+
+                result.state_name = state.get_description()
 
             case RttState.RESTORE_ACTION:
                 self.logger().info(state.name)
 
+                result.side = "sell"
+                result.state_name = state.get_description()
+
             case RttState.STOP:
                 self.logger().info(state.name)
+
+                result.state_name = state.get_description()
 
             case _:
                 msg: str = ''
@@ -427,6 +481,11 @@ class QuoteAccumulator(Accumulator):
                     msg = f"Invalid or unknown state: {state}"
 
                 self.logger().error(msg)
+
+                result.state_name = msg
+
+        # HINT Normal function termination
+        return result
 
     def issue_transform_order(self) -> bool:
         """
@@ -469,19 +528,19 @@ class QuoteAccumulator(Accumulator):
 
     def did_fail_order(self, event: MarketOrderFailureEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
     def did_cancel_order(self, event: OrderCancelledEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
     def did_expire_order(self, event: OrderExpiredEvent):
         """
-        This slave will go to the STOP state if it receives this message, and
+        This helper will go to the STOP state if it receives this message, and
         will stop further processing, and won't be seen by the master anymore.
         """
 
@@ -544,11 +603,32 @@ class RoundTripTrading(ScriptStrategyBase):
     # HINT gain ratio over exchange fee
     gain: Decimal = Decimal(0.5)
 
-    # HINT number of QuoteAccumulator slaves
+    # HINT number of QuoteAccumulator helpers
     n_quote_accumulators: int = 1
 
-    # HINT number of BaseAccumulator slaves
+    # HINT number of BaseAccumulator helpers
     n_base_accumulators: int = 1
+
+    def place_order(self, params: OrderParams) -> str:
+        """
+        Select `RoundTripTrading` methods `buy()` and `sell()` according to the processing state
+        """
+        result: str = ""
+        if params.side.lower() not in ["buy", "sell"]:
+            return ""
+
+        params_dict = params.__dict__
+        params_dict.pop("state")
+        params_dict.pop("side")
+
+        if "buy" == params.side.lower():
+            result = self.buy(**params_dict)
+
+        elif "sell" == params.side.lower():
+            result = self.sell(**params_dict)
+
+        # HINT Normal function termination
+        return result
 
     @classmethod
     def init_markets(cls, config: BaseModel):
@@ -569,7 +649,7 @@ class RoundTripTrading(ScriptStrategyBase):
         super().__init__(connectors, config)
 
         # HINT set of active Accumulator objects
-        self.active_slaves: Set[Accumulator] = set()
+        self.active_helpers: Set[Accumulator] = set()
 
         # HINT dictionary of active orders for Accumulator objects
         self.active_orders: Dict[str, Accumulator] = {}
@@ -589,12 +669,12 @@ class RoundTripTrading(ScriptStrategyBase):
         for qa_ind in range(self.n_quote_accumulators):
             qa: QuoteAccumulator = QuoteAccumulator(transform_params, restore_params)
 
-            if not self.add_slave(qa):
+            if not self.add_helper(qa):
                 self.logger().error("FATAL Could not add QuoteAccumulator %d", qa_ind)
 
                 HummingbotApplication.main_application().stop()
 
-            self.active_slaves.add(qa)
+            self.active_helpers.add(qa)
 
     def estimate_params(self) -> None:
         """
@@ -608,7 +688,7 @@ class RoundTripTrading(ScriptStrategyBase):
     def on_tick(self) -> None:
         """
         Main program of the strategy: will receive Hummingbot ticks till there are
-        no more slaves to process, or while there are still iterations to run.
+        no more helpers to process, or while there are still iterations to run.
         """
 
         if (self.tick_counter % 10) == 0:
@@ -618,14 +698,14 @@ class RoundTripTrading(ScriptStrategyBase):
 
         terminate: bool = self.should_stop or (self.tick_counter >= self.max_ticks)
         if not terminate:
-            active_slaves_list: List[Accumulator] = list(self.active_slaves)
-            for qa in active_slaves_list:
-                if RttState.STOP == qa.get_current_state():
-                    self.active_slaves.remove(qa)
+            active_helpers_list: List[Accumulator] = list(self.active_helpers)
+            for helper in active_helpers_list:
+                if RttState.STOP == helper.get_current_state():
+                    self.active_helpers.remove(helper)
 
                     continue
 
-                qa.execute_accumulation()
+                helper.execute_accumulation()
 
         HummingbotApplication.main_application().stop()
 
@@ -633,94 +713,104 @@ class RoundTripTrading(ScriptStrategyBase):
         """
         Is called when the `stop` is sent from the user interface
         """
-        # TODO send status update to all slaves
+        # TODO send status update to all helpers
 
         self.should_stop = True
 
     def did_fill_order(self, event: OrderFilledEvent):
         """
         Receive each event of full or partial order fill caused by this bot. It is then
-        transferred to the accumulator slave that should handle it.
+        transferred to the accumulator helper that should handle it.
         """
 
     def did_fail_order(self, event: MarketOrderFailureEvent):
         """
         Receive each failed order event caused by this bot. It is then
-        transferred to the accumulator slave that should handle it.
+        transferred to the accumulator helper that should handle it.
 
-        The slave will go to the STOP state and will be taken off
+        The helper will go to the STOP state and will be taken off
         from the set of active states
         """
 
     def did_cancel_order(self, event: OrderCancelledEvent):
         """
         Receive each canceled order event caused by a third party.
-        It is then transferred to the accumulator slave that should
+        It is then transferred to the accumulator helper that should
         handle it.
 
-        The slave will go to the STOP state and will be taken off
+        The helper will go to the STOP state and will be taken off
         from the set of active states
         """
 
     def did_expire_order(self, event: OrderExpiredEvent):
         """
         Receive each expired order event caused by a third party.
-        It is then transferred to the accumulator slave that should
+        It is then transferred to the accumulator helper that should
         handle it.
 
-        The slave will go to the STOP state and will be taken off
+        The helper will go to the STOP state and will be taken off
         from the set of active states
         """
 
     def did_complete_buy_order(self, event: BuyOrderCompletedEvent):
         """
         Receive each complete buy order event. It is then transferred
-        to the accumulator slave that issued the order.
+        to the accumulator helper that issued the order.
         """
 
     def did_complete_sell_order(self, event: SellOrderCompletedEvent):
         """
         Receive each complete buy order event. It is then transferred
-        to the accumulator slave that issued the order.
+        to the accumulator helper that issued the order.
         """
 
-    def add_slave(self, slave: Accumulator) -> bool:
+    def add_helper(self, helper: Accumulator) -> bool:
         """
-        Add a slave to the list of traders. Return True if addition was successful
+        Add a helper to the list of traders. Return True if addition was successful
         """
 
-        if slave in self.active_slaves:
-            self.logger().warning("Slave %s already in the list of active slaves",
-                                  slave.instance_name())
+        if helper in self.active_helpers:
+            self.logger().warning("Slave %s already in the list of active helpers",
+                                  helper.instance_name())
 
             # HINT return to indicate failure
             return False
 
-        self.active_slaves.add(slave)
+        self.active_helpers.add(helper)
 
         # HINT Normal function termination
         return True
 
-    def add_order(self, slave: Accumulator, order_id: str) -> bool:
+    def add_order(self, helper: Accumulator, order_id: str) -> bool:
         """
-        Add an order that a registered slave is waiting for
+        Add an order that a registered helper is waiting for
         """
 
-        if slave in self.active_orders.values():
-            self.logger().warning("Slave %s has already a pending order %s",
-                                  slave.instance_name, slave.get_active_order())
+        if helper in self.active_orders.values():
+            self.logger().warning("Assistant %s has already a pending order %s",
+                                  helper.instance_name, helper.get_active_order())
 
             # HINT return to indicate failure
             return False
 
         if order_id in self.active_orders:
-            self.logger().warning("Order %s from slave %s is already in the list",
-                                  slave.get_active_order(), slave.instance_name)
+            self.logger().warning("Order %s from helper %s is already in the list",
+                                  helper.get_active_order(), helper.instance_name)
 
             # HINT return to indicate failure
             return False
 
-        self.active_orders[order_id] = slave
+        self.active_orders[order_id] = helper
 
         # Normal function termination
         return True
+
+    def format_status(self) -> str:
+        result: str = ""
+
+        result += "Active trades\n"
+        for accumlator in self.active_helpers:
+            result += accumlator.instance_name() + "\n"
+
+        # HINT Normal function termination
+        return result
