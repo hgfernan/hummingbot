@@ -1,0 +1,8 @@
+* calc_transform_price(self)
+* calc_restore_price(self)
+* execute_accumulation(self)
+issue_transform_order(self)
+issue_restore_order(self)
+did_fill_order(self,
+did_complete_buy_order(self,
+did_complete_sell_order(self,
