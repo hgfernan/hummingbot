@@ -15,7 +15,7 @@ import logging  # class Logger, getLogger()
 import os
 from abc import ABC, abstractmethod
 from decimal import Decimal
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set
 
 from pydantic import BaseModel
 
@@ -79,6 +79,17 @@ class RttState(enum.Enum):
         return result
 
 
+class ActivityParams(BaseModel):
+    """
+    Main parameters for activity
+    """
+    started: bool = False
+    curr_order: str = ""
+    curr_state: RttState = RttState.START
+    instance_id: int = 0
+    starting_tick: int = 0
+
+
 class TransformParams(BaseModel):
     """
     Parameters for the RttState.TRANSFORM_CALC and RttState.TRANSFORM_ACTION states
@@ -131,39 +142,39 @@ class Accumulator(ABC):
 
     last_instance_id: int = 0
 
-    @classmethod
-    def class_name(cls) -> str:
+    def _class_name(self) -> str:
         """
         Name of the class
         """
 
+        cls = self.__class__
         return type(cls).__name__
 
-    # def __init__(self,
-    #              investment: Decimal,
-    #              base_price: Decimal,
-    #              rel_delta: Decimal,
-    #              exchange_fee: Decimal,
-    #              gain_ratio: Decimal) -> None:
     def __init__(self,
+                 starting_tick: int,
                  transform_params: TransformParams,
                  restore_params: RestoreParams) -> None:
         """
         Initialize control variables and totalizers of gain and loss
         """
 
-        # HINT Due to Python language each derived class have an independent `id`` numbering
-        self.instance_id = self.__class__.inc_instance_id()
+        self.activity_params: ActivityParams = \
+            ActivityParams(starting_tick=starting_tick,
+                           instance_id=self.__class__._inc_instance_id())
 
-        self.curr_state = RttState.START
+        # # HINT Each derived class have an independent `id`` numbering
+        # self.instance_id =
 
-        self.curr_order = ""
+        # self.started : bool = False
+        # self.curr_state : RttState = RttState.START
 
-        # HINT the price and amount for the current order
+        # self.curr_order = ""
+
+        # HINT the price and amount issued for the current order
         self.curr_price_amount = PriceAmount()
 
         # HINT the price and amount of the partial fills of the last order
-        self.partial_fills: List[Tuple[Decimal, Decimal]] = []
+        self.partial_fills: List[PriceAmount] = []
 
         # # HINT the amount available, either in base or quote asset
         # self.investment = investment
@@ -185,7 +196,7 @@ class Accumulator(ABC):
         self.restore_params = restore_params
 
     @classmethod
-    def inc_instance_id(cls) -> int:
+    def _inc_instance_id(cls) -> int:
         """
         Increment the last instance id, and return the current one
         """
@@ -200,23 +211,28 @@ class Accumulator(ABC):
         """
         Name of the instance
         """
-        cls = self.__class__
+        return self._class_name() + "-" + f"{self.activity_params.instance_id:02d}"
 
-        return cls.class_name() + "-" + f"{self.instance_id:02d}"
+    def is_started(self) -> bool:
+        """
+        Was this instance already started ?
+        """
+
+        return self.activity_params.started
 
     def get_current_state(self) -> RttState:
         """
         Return the current state
         """
 
-        return self.curr_state
+        return self.activity_params.curr_state
 
     def get_active_order(self) -> str:
         """
         Return the last issued order, before the issuing of another one.
         """
 
-        return self.curr_order
+        return self.activity_params.curr_order
 
     def get_curr_price_amount(self) -> PriceAmount:
         """
@@ -232,12 +248,40 @@ class Accumulator(ABC):
 
         return self.transform_params.base_price
 
+    def should_start(self, tick_counter: int) -> bool:
+        """
+        Return True if the helper should start
+        """
+
+        return self.activity_params.starting_tick <= tick_counter
+
+    def do_start(self, start: bool = True) -> bool:
+        """
+        Start this instance, and return the previous started
+        """
+
+        result: bool = self.is_started()
+
+        self.activity_params.started = start
+
+        return result
+
     def get_rel_delta(self) -> Decimal:
         """
         Return the current relative delta ratio
         """
 
         return self.transform_params.rel_delta
+
+    def set_current_state(self, next_state: RttState) -> RttState:
+        """
+        Set the next current state
+        """
+        result: RttState = self.get_current_state()
+
+        self.activity_params.curr_state = next_state
+
+        return result
 
     def set_base_price(self, base_price: Decimal) -> Decimal:
         """
@@ -285,18 +329,6 @@ class Accumulator(ABC):
         """
         Manage the finite state automaton for the accumulation, and keep
         a log of gain and loss
-        """
-
-    @abstractmethod
-    def issue_transform_order(self) -> bool:
-        """
-        Issue a transform order
-        """
-
-    @abstractmethod
-    def issue_restore_order(self) -> bool:
-        """
-        Issue a restore order
         """
 
     # def did_create_buy_order(self, event: BuyOrderCreatedEvent):
@@ -362,9 +394,9 @@ class Accumulator(ABC):
         Cause the helper to go to the STOP state
         """
 
-        result: RttState = self.curr_state
+        result: RttState = self.activity_params.curr_state
 
-        self.curr_state = RttState.STOP
+        self.activity_params.curr_state = RttState.STOP
 
         # HINT Normal function termination
         return result
@@ -378,15 +410,18 @@ class QuoteAccumulator(Accumulator):
     last_instance_id: int = 0
 
     def __init__(self,
+                 starting_tick: int,
                  transform_params: TransformParams,
                  restore_params: RestoreParams) -> None:
         """
         Initialize a QuoteAccumulator instance
         """
 
-        super().__init__(transform_params=transform_params, restore_params=restore_params)
+        super().__init__(starting_tick,
+                         transform_params=transform_params,
+                         restore_params=restore_params)
 
-        self.id: int = self.__class__.inc_instance_id()
+        self.id: int = self.__class__._inc_instance_id()
 
         self.local_logger: Optional[logging.Logger] = None
 
@@ -444,6 +479,8 @@ class QuoteAccumulator(Accumulator):
 
                 result.state_name = state.get_description()
 
+                self.set_current_state(RttState.TRANSFORM_ACTION)
+
             case RttState.TRANSFORM_CALC:
                 self.logger().info(state.name)
 
@@ -487,24 +524,6 @@ class QuoteAccumulator(Accumulator):
         # HINT Normal function termination
         return result
 
-    def issue_transform_order(self) -> bool:
-        """
-        Issue a transform order
-        """
-        result: bool = True
-
-        # HINT Normal function termination
-        return result
-
-    def issue_restore_order(self) -> bool:
-        """
-        Issue a restore order
-        """
-        result: bool = True
-
-        # HINT Normal function termination
-        return result
-
     # def did_create_buy_order(self, event: BuyOrderCreatedEvent):
         # """
         # Future versions will confirm a buy order was really issued
@@ -525,6 +544,8 @@ class QuoteAccumulator(Accumulator):
 
         Won't issue a complete order event.
         """
+
+        self.partial_fills.append(PriceAmount(price=event.price, amount=event.amount))
 
     def did_fail_order(self, event: MarketOrderFailureEvent):
         """
@@ -609,10 +630,14 @@ class RoundTripTrading(ScriptStrategyBase):
     # HINT number of BaseAccumulator helpers
     n_base_accumulators: int = 1
 
+    # HINT ticks between the launch of each helper
+    n_ticks_between: int = 30
+
     def place_order(self, params: OrderParams) -> str:
         """
         Select `RoundTripTrading` methods `buy()` and `sell()` according to the processing state
         """
+
         result: str = ""
         if params.side.lower() not in ["buy", "sell"]:
             return ""
@@ -654,7 +679,7 @@ class RoundTripTrading(ScriptStrategyBase):
         # HINT dictionary of active orders for Accumulator objects
         self.active_orders: Dict[str, Accumulator] = {}
 
-        self.tick_counter: int = 0
+        self.tick_counter: int = -1
 
         self.estimate_params()
 
@@ -666,15 +691,50 @@ class RoundTripTrading(ScriptStrategyBase):
         restore_params: RestoreParams = \
             RestoreParams(exchange_fee=self.fee, gain_ratio=self.gain_ratio)
 
-        for qa_ind in range(self.n_quote_accumulators):
-            qa: QuoteAccumulator = QuoteAccumulator(transform_params, restore_params)
+        # HINT cumulative tickers
+        cum_ticks: int = 0
+        n_common_accumulators: int = min(self.n_base_accumulators, self.n_quote_accumulators)
+        for _ in range(n_common_accumulators):
+            qa: QuoteAccumulator = QuoteAccumulator(cum_ticks, transform_params, restore_params)
 
             if not self.add_helper(qa):
-                self.logger().error("FATAL Could not add QuoteAccumulator %d", qa_ind)
+                self.logger().error("FATAL Could not add QuoteAccumulator %d", qa.instance_name())
 
                 HummingbotApplication.main_application().stop()
 
-            self.active_helpers.add(qa)
+            cum_ticks += self.n_ticks_between
+
+            # ba: BaseAccumulator = BaseAccumulator(cum_ticks, transform_params, restore_params)
+
+            # if not self.add_helper(ba):
+            #     self.logger().error("FATAL Could not add QuoteAccumulator %d", ba.instance_name())
+
+            #     HummingbotApplication.main_application().stop()
+
+            # cum_ticks += self.n_ticks_between
+            # self.starting_tick.append(cum_ticks)
+
+        for __ind in range(self.n_quote_accumulators - n_common_accumulators):
+            qa: QuoteAccumulator = QuoteAccumulator(cum_ticks, transform_params, restore_params)
+
+            if not self.add_helper(qa):
+                self.logger().error("FATAL Could not add QuoteAccumulator %d", qa.instance_name())
+
+                HummingbotApplication.main_application().stop()
+
+            cum_ticks += self.n_ticks_between
+            self.starting_tick.append(cum_ticks)
+
+        # for ba_ind in range(self.n_quote_accumulators - n_common_accumulators):
+        #     ba: BaseAccumulator = BaseAccumulator(cum_ticks, transform_params, restore_params)
+
+        #     if not self.add_helper(ba):
+        #         self.logger().error("FATAL Could not add QuoteAccumulator %d", ba.instance_name())
+
+        #         HummingbotApplication.main_application().stop()
+
+        #     cum_ticks += self.n_ticks_between
+        #     self.starting_tick.append(cum_ticks)
 
     def estimate_params(self) -> None:
         """
@@ -691,23 +751,40 @@ class RoundTripTrading(ScriptStrategyBase):
         no more helpers to process, or while there are still iterations to run.
         """
 
-        if (self.tick_counter % 10) == 0:
-            self.estimate_params()
+        order_params: OrderParams = OrderParams()
+
+        # TODO add orderbook info to statistics
 
         self.tick_counter += 1
 
-        terminate: bool = self.should_stop or (self.tick_counter >= self.max_ticks)
-        if not terminate:
-            active_helpers_list: List[Accumulator] = list(self.active_helpers)
-            for helper in active_helpers_list:
-                if RttState.STOP == helper.get_current_state():
-                    self.active_helpers.remove(helper)
+        if (self.tick_counter % 10) != 0:
+            return
 
+        self.estimate_params()
+
+        terminate: bool = self.should_stop or (self.tick_counter >= self.max_ticks)
+        if terminate:
+            HummingbotApplication.main_application().stop()
+
+        active_helpers_list: List[Accumulator] = list(self.active_helpers)
+        for helper in active_helpers_list:
+            if RttState.STOP == helper.get_current_state():
+                self.active_helpers.remove(helper)
+
+                continue
+
+            if not helper.is_started():
+                if not helper.should_start(self.tick_counter):
                     continue
 
-                helper.execute_accumulation()
+                helper.do_start(True)
 
-        HummingbotApplication.main_application().stop()
+            order_params = helper.execute_accumulation()
+
+            if order_params.side in ["buy", "sell"]:
+                order_id = self.place_order(order_params)
+
+                self.add_order(helper=helper, order_id=order_id)
 
     async def on_stop(self):
         """
@@ -722,6 +799,20 @@ class RoundTripTrading(ScriptStrategyBase):
         Receive each event of full or partial order fill caused by this bot. It is then
         transferred to the accumulator helper that should handle it.
         """
+
+        order_id: str = event.order_id
+        if order_id not in self.active_orders:
+            self.logger().error("Order filling %s not registered as active", order_id)
+
+            return
+
+        helper: Accumulator = self.active_orders[order_id]
+        if helper not in self.active_helpers:
+            self.logger().error("Helper %s not registered as active", helper.instance_name)
+
+            return
+
+        helper.did_fill_order(event)
 
     def did_fail_order(self, event: MarketOrderFailureEvent):
         """
