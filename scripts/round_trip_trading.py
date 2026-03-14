@@ -133,7 +133,7 @@ class OrderParams(BaseModel):
 
 class Accumulator(ABC):
     """
-    Future abstract base class of the accumulation of base and quote assets.
+    Abstract base class for the accumulation of base and quote assets.
 
     Currently will implement the accumulation of quote asset as a meeans to
     cover most cases before abstracting them in two specializedd classes,
@@ -165,8 +165,8 @@ class Accumulator(ABC):
         # # HINT Each derived class have an independent `id`` numbering
         # self.instance_id =
 
-        # self.started : bool = False
-        # self.curr_state : RttState = RttState.START
+        # self.started: bool = False
+        # self.curr_state: RttState = RttState.START
 
         # self.curr_order = ""
 
@@ -253,7 +253,7 @@ class Accumulator(ABC):
         Return True if the helper should start
         """
 
-        return self.activity_params.starting_tick <= tick_counter
+        return self.activity_params.starting_tick >= tick_counter
 
     def do_start(self, start: bool = True) -> bool:
         """
@@ -479,6 +479,8 @@ class QuoteAccumulator(Accumulator):
 
                 result.state_name = state.get_description()
 
+                # TODO what else should be done here ?
+
                 self.set_current_state(RttState.TRANSFORM_ACTION)
 
             case RttState.TRANSFORM_CALC:
@@ -486,11 +488,18 @@ class QuoteAccumulator(Accumulator):
 
                 result.state_name = state.get_description()
 
+                # TODO calculate price and format order
+
+                self.set_current_state(RttState.TRANSFORM_ACTION)
+
             case RttState.TRANSFORM_ACTION:
                 self.logger().info(state.name)
 
                 result.side = "buy"
                 result.state_name = state.get_description()
+
+                # TODO wait here till buy order is complete
+                # HINT the state change will be caused by did_complete_buy_order()
 
             case RttState.RESTORE_CALC:
                 self.logger().info(state.name)
@@ -567,19 +576,21 @@ class QuoteAccumulator(Accumulator):
 
     def did_complete_buy_order(self, event: BuyOrderCompletedEvent):
         """
-        If this was in a TRANSFORM_ACTION state it will go to RESTORE_CALC,
-        and if it was in a RESTORE_ACTION it will go to the TRANSFORM_CALC
-        state. It will go to the STOP state if it was currently waiting for
-        a sell order but if this state arrived instead.
+        A `QuoteAccumulator` in `RttState.TRANSFORM_ACTION` will go to
+        `RttState.RESTORE_CALC`; a `BaseAccumulator` in `RttState.RESTORE_ACTION`
+        will go to `RttState.TRANSFORM_CALC`
         """
+
+        self.set_current_state(RttState.RESTORE_CALC)
 
     def did_complete_sell_order(self, event: SellOrderCompletedEvent):
         """
-        If this was in a  it will go to RestoreCalculus, and if it was
-        in a RESTORE_ACTION it will go either to the TransformCalculus.
-        It will also go to the STOP state if it was currently waiting
-        for a buy order but if this state arrived instead.
+        A `QuoteAccumulator` in `RttState.RESTORE_ACTION` will go to
+        `RttState.TRANSFORM_CALC`; a `BaseAccumulator` in `RttState.TRANSFORM_ACTION`
+        will go to `RttState.RESTORE_CALC`
         """
+
+        self.set_current_state(RttState.RESTORE_CALC)
 
 
 class RoundTripTrading(ScriptStrategyBase):
@@ -588,8 +599,9 @@ class RoundTripTrading(ScriptStrategyBase):
     execution
     """
 
-    exchange = os.getenv("EXCHANGE", "binance_paper_trade")
-    trading_pair = os.getenv("TRADING_PAIRS", "ETH-USDT")
+    # exchange: str = str(os.getenv("EXCHANGE", "binance_paper_trade"))
+    exchange: str = os.getenv("EXCHANGE", "binance_paper_trade")
+    trading_pair: str = str(os.getenv("TRADING_PAIRS", "ETH-USDT"))
 
     depth: Any = os.getenv("DEPTH", "50")
     if isinstance(depth, str) and depth.isdigit():
@@ -633,28 +645,6 @@ class RoundTripTrading(ScriptStrategyBase):
     # HINT ticks between the launch of each helper
     n_ticks_between: int = 30
 
-    def place_order(self, params: OrderParams) -> str:
-        """
-        Select `RoundTripTrading` methods `buy()` and `sell()` according to the processing state
-        """
-
-        result: str = ""
-        if params.side.lower() not in ["buy", "sell"]:
-            return ""
-
-        params_dict = params.__dict__
-        params_dict.pop("state")
-        params_dict.pop("side")
-
-        if "buy" == params.side.lower():
-            result = self.buy(**params_dict)
-
-        elif "sell" == params.side.lower():
-            result = self.sell(**params_dict)
-
-        # HINT Normal function termination
-        return result
-
     @classmethod
     def init_markets(cls, config: BaseModel):
         """
@@ -664,6 +654,27 @@ class RoundTripTrading(ScriptStrategyBase):
         """
         cls.markets = {cls.exchange: set(cls.trading_pairs)}
 
+    def get_base_name(self) -> str:
+        """
+        Get the name of the base asset
+        """
+
+        return self.base_name
+
+    def get_quote_name(self) -> str:
+        """
+        Get the name of the quote asset
+        """
+
+        return self.quote_name
+
+    def get_mean_base_price(self) -> Decimal:
+        """
+        Return the suggested mean base price.
+        """
+
+        return self.mean_base_price
+
     def __init__(self, connectors: Dict[str, Any], config: Optional[BaseModel] = None):
         """
         Initialization of the RoundTripTrading instance.
@@ -672,6 +683,35 @@ class RoundTripTrading(ScriptStrategyBase):
         """
 
         super().__init__(connectors, config)
+
+        fields: List[str] = self.trading_pair.split("-")
+
+        self.base_name: str = fields[0]
+        self.quote_name: str = fields[1]
+
+        self.avail_balances: Dict[str, Decimal] = {}
+
+        rv: bool = self.retrieve_balances()
+        if not rv:
+            self.logger().critical("Could not find balance information for all assets")
+
+            HummingbotApplication.main_application().stop()
+
+        expected_balance: Decimal = self.base_investment * self.n_base_accumulators
+        if expected_balance < self.avail_balances[self.base_name]:
+            self.logger().critical("Not enough balance for %d base accumulators. " +
+                                   "%f would be necessary",
+                                   self.n_base_accumulators, expected_balance)
+
+            HummingbotApplication.main_application().stop()
+
+        expected_balance: Decimal = self.quote_investment * self.n_quote_accumulators
+        if expected_balance < self.avail_balances[self.quote_name]:
+            self.logger().critical("Not enough balance for %d quote accumulators. " +
+                                   "%f would be necessary",
+                                   self.n_quote_accumulators, expected_balance)
+
+            HummingbotApplication.main_application().stop()
 
         # HINT set of active Accumulator objects
         self.active_helpers: Set[Accumulator] = set()
@@ -683,11 +723,12 @@ class RoundTripTrading(ScriptStrategyBase):
 
         self.estimate_params()
 
-        # HINT allocate quote accumulators
+        # HINT set up quote accumulators
         transform_params: TransformParams = \
             TransformParams(investment=self.quote_investment,
                             base_price=self.mean_base_price,
                             rel_delta=self.rel_delta)
+
         restore_params: RestoreParams = \
             RestoreParams(exchange_fee=self.fee, gain_ratio=self.gain_ratio)
 
@@ -715,15 +756,21 @@ class RoundTripTrading(ScriptStrategyBase):
             # self.starting_tick.append(cum_ticks)
 
         for __ind in range(self.n_quote_accumulators - n_common_accumulators):
-            qa: QuoteAccumulator = QuoteAccumulator(cum_ticks, transform_params, restore_params)
+            qr: QuoteAccumulator = QuoteAccumulator(cum_ticks, transform_params, restore_params)
 
-            if not self.add_helper(qa):
-                self.logger().error("FATAL Could not add QuoteAccumulator %d", qa.instance_name())
+            if not self.add_helper(qr):
+                self.logger().error("FATAL Could not add QuoteAccumulator %d", qr.instance_name())
 
                 HummingbotApplication.main_application().stop()
 
             cum_ticks += self.n_ticks_between
             self.starting_tick.append(cum_ticks)
+
+        # HINT set up base accumulators
+        # transform_params = \
+        #     TransformParams(investment=self.base_investment,
+        #                     base_price=self.mean_base_price,
+        #                     rel_delta=self.rel_delta)
 
         # for ba_ind in range(self.n_quote_accumulators - n_common_accumulators):
         #     ba: BaseAccumulator = BaseAccumulator(cum_ticks, transform_params, restore_params)
@@ -735,6 +782,67 @@ class RoundTripTrading(ScriptStrategyBase):
 
         #     cum_ticks += self.n_ticks_between
         #     self.starting_tick.append(cum_ticks)
+
+    def place_order(self, params: OrderParams) -> str:
+        """
+        Select `RoundTripTrading` methods `buy()` and `sell()` according to the order side
+        """
+
+        result: str = ""
+        side: str = params.side.lower()
+        if side not in ["buy", "sell"]:
+            return ""
+
+        params_dict = params.model_dump()
+        params_dict.pop("state")
+        params_dict.pop("side")
+
+        if "buy" == params.side.lower():
+            result = self.buy(**params_dict)
+
+        elif "sell" == params.side.lower():
+            result = self.sell(**params_dict)
+
+        # HINT Normal function termination
+        return result
+
+    def _set_balance(self, asset_name: str) -> bool:
+        """
+        Set the balance of the given asset name, and return True if successful
+        """
+
+        aux: Any = self.connectors[self.exchange].get_balance(asset_name)
+
+        if not isinstance(aux, float):
+            self.logger().error("Invalid or unkwon asset name %s", asset_name)
+
+            self.avail_balances[asset_name] = Decimal(0.0)
+
+            # HINT return to indicate failure
+            return False
+
+        self.avail_balances[asset_name] = Decimal(float(aux))
+
+        # HINT Normal function termination
+        return True
+
+    def retrieve_balances(self) -> bool:
+        """
+        Obtain the availab
+        """
+
+        result: bool = True
+
+        result = result and self._set_balance(self.base_name)
+        if not result:
+            self.logger().error("Could not find the balance of base asset %s", self.base_name)
+
+        result = result and self._set_balance(self.quote_name)
+        if not result:
+            self.logger().error("Could not find the balance of quote asset %s", self.quote_name)
+
+        # HINT Normal function termination
+        return result
 
     def estimate_params(self) -> None:
         """
@@ -757,14 +865,14 @@ class RoundTripTrading(ScriptStrategyBase):
 
         self.tick_counter += 1
 
+        terminate: bool = self.should_stop or (self.tick_counter >= self.max_ticks)
+        if terminate:
+            HummingbotApplication.main_application().stop()
+
         if (self.tick_counter % 10) != 0:
             return
 
         self.estimate_params()
-
-        terminate: bool = self.should_stop or (self.tick_counter >= self.max_ticks)
-        if terminate:
-            HummingbotApplication.main_application().stop()
 
         active_helpers_list: List[Accumulator] = list(self.active_helpers)
         for helper in active_helpers_list:
@@ -781,8 +889,19 @@ class RoundTripTrading(ScriptStrategyBase):
 
             order_params = helper.execute_accumulation()
 
-            if order_params.side in ["buy", "sell"]:
+            if RttState.TRANSFORM_CALC == helper.get_current_state():
+                helper.set_base_price(self.get_mean_base_price())
+
+            elif order_params.side in ["buy", "sell"]:
                 order_id = self.place_order(order_params)
+
+                if "" == order_id:
+                    self.logger().error("Could not place %s order for helper %s",
+                                        order_params.side, helper.instance_name())
+                    self.logger().info("Helper %s will be removed",
+                                       helper.instance_name)
+
+                    self.active_helpers.remove(helper)
 
                 self.add_order(helper=helper, order_id=order_id)
 
@@ -848,6 +967,18 @@ class RoundTripTrading(ScriptStrategyBase):
         Receive each complete buy order event. It is then transferred
         to the accumulator helper that issued the order.
         """
+
+        order_id: str = event.order_id
+
+        if order_id not in self.active_orders:
+            self.logger().error("Order %s was not found in the list of expected orders")
+
+            # HINT return because there's nothing else to do
+            return
+
+        helper: Accumulator = self.active_orders[order_id]
+
+        helper.did_complete_buy_order(event)
 
     def did_complete_sell_order(self, event: SellOrderCompletedEvent):
         """
