@@ -25,7 +25,7 @@ from hummingbot.client.hummingbot_application import HummingbotApplication
 # from hummingbot import data_path
 # from hummingbot.connector.connector_base import ConnectorBase
 # from hummingbot.core.event.event_forwarder import SourceInfoEventForwarder
-from hummingbot.core.event.events import (  # BuyOrderCreatedEvent,; SellOrderCreatedEvent,; OrderBookEvent,; OrderBookTradeEvent,; OrderType,; PositionAction,
+from hummingbot.core.event.events import (
     BuyOrderCompletedEvent,
     MarketOrderFailureEvent,
     OrderCancelledEvent,
@@ -320,7 +320,7 @@ class RecursiveAccumulator(ScriptStrategyBase):
         """
         Initialization of the RecursiveAccumulator instance.
 
-        In future versions, parameters will be received a from configuration object.
+        In future versions, parameters will be received from a configuration object.
         """
 
         super().__init__(connectors, config)
