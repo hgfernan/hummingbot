@@ -4,6 +4,10 @@
 
 ## Day by day
 
+### 2026-05-14
+
+1. Start working in the recursive scalper implementation.
+
 ### 2026-03-09
 
 1. Make sure the initialization of the helpers in `RoundTripTrading` is correct;
