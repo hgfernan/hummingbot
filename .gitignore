@@ -97,10 +97,17 @@ coverage.xml
 
 **/.claude/settings.local.json
 
+# Editor/AI tool directories
+.claude/
+.cursor/
+.agents/
+
+
+# GRVT
+/grvt
+
 # Spyder
 .spyproject/
 
 # Geany
 .geany/
-
-gateway-files/
